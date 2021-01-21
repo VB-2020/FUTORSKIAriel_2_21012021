@@ -1,0 +1,1223 @@
+ /* Début Header */
+
+div, nav, section, header, article, aside 
+{
+    display:inline-block; vertical-align:top;
+    
+
+}
+
+#header
+{ 
+    background-color: white;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 98.3%;
+    
+    
+    
+}
+
+#logo
+{
+    display:inline-block;
+    background-color: white;
+    width: 25%;
+    vertical-align: top
+    
+    
+}
+
+.logopic
+{
+    width: 40%;
+}
+
+#menunav
+{
+ 
+ background-color:white;
+ float: right;
+ 
+ 
+
+ width: 50%;
+ 
+}
+
+#ul1
+{
+    display: flex;
+    list-style-type: none;  
+       
+}
+
+
+.elementH
+{
+   
+   width: 40%;
+   
+}
+.elementA
+{
+    
+    width: 30%;
+}
+.elementS
+{
+    
+    width: 40%;
+}
+
+.txtdeco1
+{
+    text-decoration: none;
+    color: blue;
+}
+.txtdeco2
+{
+    text-decoration: none;
+    color: grey;
+}
+.txtdeco3
+{
+    text-decoration: none;
+    color: blue;
+}
+
+/* Fin Header */
+
+/*Début btn Recherche */
+
+#perebtnrecherche
+{
+    background-color: white;
+    width: 98.3%;
+}
+
+.h2
+{
+    
+    width: 50%
+}
+
+.h3
+{
+    
+    width: 50%;
+    color: grey;
+    
+}
+
+#Recherchebtn
+{
+    display: flex;
+    margin-bottom: 1%;
+    width: 50%;
+    
+}
+
+.iconlocation  
+{
+    background-color: lightgray;
+    color: black;
+    width: 4%;
+    border: 1px lightgrey;  
+    border-right: 1px lightgrey;
+    border-radius: 10px 0px 0px 10px;
+    
+    
+}
+
+.fa-map-marker-alt
+{
+    align-self: center;
+}
+
+
+.input
+{
+    width: 21%;
+    height: 75%;
+    border: 2px lightgrey ;
+    
+}
+
+.inputbtn
+{
+    height: 10%;
+}
+
+.button
+{
+    border: 1px lightgray;
+    width: 12%; 
+    
+    border-left: 1px lightgray;
+    border-radius: 0px 10px 10px 0px;
+
+
+}
+
+.boton
+{
+    background-color: blue;
+    border-radius: 0px 10px 10px 0px;
+    color:white;
+}
+
+
+/*Fin btn Recherche */
+
+/* Début Filtres */
+
+
+
+.textdeco4, .textdeco5, .textdeco6, .textdeco7 
+{
+    text-decoration: none;
+    
+}
+
+.textdeco4
+{
+    background-color: hotpink;
+}
+.textdeco5 :hover
+{
+    background-color: lime;
+}
+.textdeco6 :hover
+{
+    background-color: orange;
+}
+.textdeco7 :hover
+{
+    background-color:teal ;
+}
+
+.filtres
+{
+    background-color: white;
+    width: 98.3%;
+    
+
+}
+
+#ul2
+{
+    list-style-type: none;
+    width: 92%;
+    padding:0%;
+    border: 3px hotpink ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Liiconbill
+{
+    
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    padding: 0%;
+    width: 10%;
+    border: 2px lightgray solid;
+    
+}
+
+
+#iconbill
+{
+    width: 18%;
+    height: 79%;
+    display: flex;
+    border: red solid;
+    background-color: skyblue;
+    color: blue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#iconbill  :hover
+{
+    background-color: hotpink;
+}
+
+.fa-money-bill-wave
+{
+    align-self: center;
+}
+
+
+.txticonbill
+{
+    width: 85%;
+    
+    color: black;
+    padding-left: 50%;
+}
+
+.child
+{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0%;
+    width: 10%;
+    border: 2px lightgray solid;
+}
+
+#iconfamilial
+{
+    width: 19%;
+    display: flex;  
+    height: 79%;   
+    background-color: skyblue;
+    color: blue;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px black ;
+}
+
+.fa-child
+{
+    align-self:center;
+    border: 3px  black solid;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.strongchild
+{
+    width: 85%;
+    padding-left: 6%;
+    border: 2px red solid;
+}
+
+.txticonfamilial
+{
+    width: 85%;
+    background-color: black;
+    padding-left: 92%;
+    border: 3px darkgreen;
+
+}
+
+.heart
+{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0%;
+    width: 10%;
+    
+
+}
+
+#iconromantique
+{
+    width: 97%;
+    display: flex;
+    height: 86%;
+    background-color: white;
+    
+    border-radius: 10px 10px 10px 10px;
+    border: 2px lightgrey solid;
+}
+
+.fa-heart
+{
+    align-self: center;
+    width: 16%;
+    color: blue;
+    background-color: skyblue;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px lightgrey solid;
+    height: 85%;
+    align-self: center;
+
+}
+
+.txticonromantique
+{
+    width: 85%;
+    padding-left: 80%;
+    padding-top: 10%;
+    color: black;
+}
+
+.romantique 
+{
+    margin-top: 2%;
+}
+
+.strongromantique
+{
+    
+    width: 85%;
+    padding-left: 6%;
+    
+}
+
+
+
+.dog 
+{
+    background-color:white;
+    border: 2px lightgray solid;
+    padding: 0%;
+    width: 13%;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 46%;
+        
+}
+
+#iconchien
+{
+    width: 100%;
+    display: flex;
+    
+      
+}
+
+.fa-dog
+{
+    border-radius: 10px 10px 10px 10px;
+    border: 2px hotpink solid; 
+    width: 12%;
+    background-color: skyblue;
+}
+
+
+.txticonchien
+{
+    width: 85%;
+    border: 2px yellow ;
+    color: black;
+    padding-left: 2%;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+#iconinfo
+{
+    width: 50%;
+    background-color: white;
+    border: 3px black dashed;
+}
+
+.fa-info-circle
+{
+    color: blue;
+    
+}
+
+/*Fin Filtres*/
+
+#HMetLP
+{
+    background-color: white;
+    border: 2px black ;
+    width: 98.1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/*Début bloc Hébergements Marseille */
+ 
+.hebergementMarseille
+{
+    
+    background-color: lightgrey;
+    width: 68%;
+    height: 623px;
+    display: inline-block;
+    justify-content: space-around;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.h2HM
+{
+    margin-left: 4%;
+}
+
+.pics
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgettxta
+{
+    border: 3px black ;
+    width: 29%;
+    height: 10%;
+    border-radius: 20px 20px 20px 20px;
+
+    margin-left: 2%;
+
+
+    background-color: white;
+}
+.photoa
+{
+    border: 2px red ;
+    width: 97%;
+    height: 71%;
+}
+
+#pica
+{
+    border: 3px  black ;
+
+    width: 99%;
+    height: 116px;
+
+    margin-left: 2%;
+    margin-top: 2%;
+
+  
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    object-fit: cover;
+}
+
+.txtpica
+{
+    border: 2px yellow ;
+    width: 94%;
+    height: 28%;
+    padding-left: 3%;
+
+    color: black;
+}
+.footerpica
+{
+    border: 2px black ;
+    width: 52%;
+    margin-top: 4%;
+}
+
+.blue
+{
+    color:blue;   
+}
+
+.grey
+{
+    color: grey;
+}
+
+
+.imgettxtb
+{
+    width: 29%;
+    border: 2px violet ;
+    height: 10%;
+    border-radius: 20px 20px 20px 20px;
+
+    margin-left: 4%;
+
+    background-color: white;
+
+}
+
+.photob
+{
+    border: 2px yellow ;
+    width: 98%;
+    height: 98%;
+   
+}
+
+#picb
+{
+    width: 98%;
+    height: 112px;
+
+    border: 3px red ;  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+
+    margin-left: 2%;
+    margin-top: 2%;
+
+  
+
+    object-fit: cover;
+    
+    
+}
+
+.txtpicb
+{
+    border: 2px blue ;
+    width: 89%;
+    padding-left: 5%;
+    height: 22%;
+
+    color:black;
+    
+}
+.footerpicb
+{
+    border: 2px red ;
+    width: 81%;
+    color: blue;
+    margin-top: -2%;
+    
+}
+
+.imgettxtc
+{
+    width: 29%;
+    border: 2px black ;
+    border-radius: 20px 20px 20px 20px;
+
+    background-color: white;
+
+    margin-left: 4%;
+}
+
+.photoc
+{
+    border: 2px red ;
+    width: 97%;
+    height: 98%;
+}
+#picc
+{
+    width: 99%;
+    height: 114px;
+    border: 3px black ;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    margin-left: 2%;
+    margin-top: 2%; 
+
+    object-fit: cover;
+}
+
+.txtpicc
+{
+    border: 2px black ;
+    width: 91%;
+    height: 26%;
+    padding-left: 5%;
+    color:black;
+    
+}
+
+
+.footerpicc
+{
+    width: 94%;
+    border: 2px yellow ;
+    margin-top: -2%;
+}
+
+.iconfooterpicc
+{
+    color: blue;
+}
+
+.grey{
+    color: grey;
+}
+
+
+.imgettxtd
+{
+    width: 29%;
+    border: 3px deeppink ;
+    height: 10%;
+
+    background-color: white;
+    border-radius: 20px / 20px;
+
+    margin-left: 2%;
+    margin-top: 2%;
+    
+}
+
+.photod
+{
+    border: 2px black ;
+    width: 80%;
+    height: 98%;
+}
+
+#picd
+{
+    width: 119%;
+    height: 116px;
+    object-fit: cover;
+
+    margin-left: 2%;
+    margin-top: 2%;
+
+    border: 3px yellow ; 
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    
+}
+
+.txtpicd
+{
+    border: 3px darkblue ;
+    width: 93%;
+    padding-left: 5%;
+    height: 23%;
+
+    color:black; 
+}
+.footerpicd
+{
+    border: 2px blueviolet ;
+    width: 97%;
+}
+
+.blue
+{
+    color: blue;
+}
+
+.grey
+{
+    color: grey;
+}
+
+
+.imgettxte
+{
+    width: 29%;
+    height: 10%;
+    border: 2px red ;
+    border-radius: 20px 20px 20px 20px;
+
+    background-color: white;
+
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.photoe
+{
+    border: 2px red ;
+    width: 98%;
+    height: 76%;
+}
+
+#pice
+{
+    width:98%;
+    height: 114px;
+    object-fit: cover;
+
+    margin-left: 2%;
+    margin-top: 2%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    border: 3px rebeccapurple ;
+}
+
+.txtpice
+{
+    border: 2px black ;
+    color:black;
+
+    width: 94%;
+    height: 37%;
+    margin-top: 1%;
+    padding-left: 5%;
+}
+
+.footerpice
+{
+    border: 2px yellow ;
+    width: 92%;
+}
+
+.iconfooterpice
+{
+    color: blue;
+}
+
+
+.imgettxtf
+{
+    width: 29%;
+    border: 2px darkorange ;
+    border-radius: 20px 20px 20px 20px;
+
+    background-color: white;
+
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.photof
+{
+    width: 91%;
+    border: 2px blueviolet ;
+}
+
+#picf
+{
+    width: 106%;
+    height: 120px;
+    object-fit: cover;
+
+    border: 2px black ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    margin-left: 2%;
+    margin-top: 2%;
+
+   
+}
+
+.txtpicf
+{
+    width: 89%;
+    border: black ;
+    padding-left: 5%;
+
+    color:black;
+}
+
+.footerpicf
+{
+    width: 66%;
+    border: forestgreen ;
+}
+
+.iconfooterpicf
+{
+    color: blue;
+}
+
+.afficherplus
+{
+    margin-left: 4%;
+    margin-top: 4%;
+    color: black;
+}
+
+.fa-info-circle
+{
+    
+    color: red;
+}
+
+.fa-dog
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+
+
+
+
+/*Fin Bloc Hébergement Marseille */
+
+
+
+
+
+/*Début Bloc les plus populaires */
+
+#lespluspopu
+{
+    display: inline-block;  /* Utilizar inline-block para poner une block al lado del otro. Solucion para el menu nav y el footer */
+    background-color: lightgrey;
+    width: 28%;  /* Una vez que se definan bien los bloques "Divs" el % width que se utilice tendra sentido y se podra crear espacios entre los bloques */ 
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+
+
+.iconchart
+{
+    float: right;
+    border: 3px black solid;
+    margin-right: 3%;
+    margin-top: 6%;    
+}
+
+
+.h2popu
+{
+    border: 3px green   ;
+    margin-left: 3%;
+    width: 81%;
+    color: black;
+    
+}
+
+.borderpicpopu1
+{
+    border: 2px blue ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 52%;
+}
+
+.footerpicpopu1
+{
+    border: 3px black ;
+    width: 67%;
+    margin-top: 7%;
+    
+}
+.iconfooterpicpopu1
+{
+    display:flex;
+    justify-content: flex-start;
+    color: blue;
+}
+
+.picpopu1
+{
+    border: 3px red ;
+    padding-left: 3%;
+    width: 91%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-left:2%;
+    margin-bottom: 5%;
+}
+
+.txtpicpopu1
+{
+    border: 3px black ;
+    width: 46%;
+    padding-top: 5%;
+}
+.borderpicpopu2
+{
+    border: 2px blue ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50%;
+}
+.picpopu2
+{
+    border: 3px black solid;
+    padding-left: 3%;
+    width: 91%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-left:2%;
+    margin-bottom: 5%;
+}
+.txtpicpopu2
+{
+    border: 3px black ;
+    width: 46%;
+    padding-top: 5%;
+    color: black;
+}
+.iconfooterpicpopu2
+{
+    border: 3px purple ;
+}
+
+.blue
+{
+    color:blue;
+}
+
+.grey
+{
+    color: grey;
+}
+
+.borderpicpopu3
+{
+    border: 2px blue ;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    width: 50%;
+    height: 139px;
+    object-fit: cover;
+
+}
+.picpopu3 
+{
+    border: 2px black ;
+    padding-left: 3%;
+    width: 91%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-left:2%;
+    margin-bottom: 5%;
+}
+.txtpicpopu3
+{
+    border: 2px red ;
+    width: 46%;
+    padding-top: 6%;
+    color: black;
+}
+
+
+.iconfooterpicpopu3
+{
+    border: 2px black ;
+}
+
+.blue
+{
+    color:blue;
+}
+
+.grey
+{
+    color:grey ;
+}
+
+/*Fin Bloc les plus populaires */
+
+
+
+
+/*Début Bloc Activités Marseille */
+
+#ActivitesM
+{
+    background-color:lightskyblue;
+    width: 98.3%;
+}
+
+.groupeActivites
+{
+    width: 100%;
+    display:flex;
+
+}
+
+.imgtxt1
+{
+    border: 3px black solid;
+    display:flex;
+    flex-direction: column;
+    width: 46%;
+    
+    
+    background-color: yellowgreen;
+    position: relative;
+    
+    
+    
+}
+.photo1
+{
+    border: 3px red solid;
+    background-color:turquoise;
+    width: 93%;
+    height: 97%;
+    
+}
+
+.img1 
+{
+    width: 91%;
+    height: 90%;
+}
+
+.txtphoto1
+{
+    border: 3px yellow solid;
+    width: 95%;
+    display: flex;
+}
+
+.imgtxt2
+{
+    border: 3px black solid;
+    width: 30%;
+    background-color: gold;
+    
+    
+}
+.photo2
+{
+    border: 3px black dashed;
+    background-color: hotpink;   
+}
+
+.img2 
+{
+    border:deepskyblue dashed;
+    width: 97%;
+}
+
+.txtphoto2
+{
+    border: 3px green solid;
+    text-align: center;
+    display: flex;
+}
+.photo3
+{
+    border: 3px black dashed;
+    margin-top: 99%;
+    background-color:red;
+    
+}
+
+.img3 
+{
+    border: 3px red dashed;
+    width: 97%;
+}
+
+.imgtxt3
+{
+    border: 3px black solid;
+    width: 43%;
+    display:flex;
+    flex-direction: column;
+ 
+    background-color: yellowgreen;
+    position: relative;
+
+}
+
+.photo4 
+{
+    border: 3px red solid;
+    background-color:turquoise;
+    width: 95%;
+    height: 97%;
+}
+
+.img4 
+{
+    width: 98%;
+    height: 90%;
+}
+
+.txtphoto4 
+{
+    border: 3px yellow solid;
+    width: 97%;
+    display: flex;
+}
+
+.txtphoto3
+{
+    display:flex;
+}
+
+.imgtxt4
+{
+    border: 3px yellow solid;
+    width: 30%;
+    background-color: gold;
+}
+
+
+.photo5
+{
+    border: 3px black solid;
+    background-color: hotpink;
+}
+.txtphoto5
+{
+    border: 3px green solid;
+    text-align: center;
+    display: flex;
+}
+
+.img5
+{
+    border: 2px deepskyblue dashed;
+    width: 97%;
+}
+
+.photo6
+{
+    border: 3px brown solid;
+    background-color:indigo;
+}
+
+.img6
+{
+    border: 3px black dashed;
+    width: 97%;
+}
+
+.txtphoto6
+{
+    display:flex;
+    text-align: center;
+    border: 3px yellow dashed;
+}
+
+
+
+/*Fin Bloc Activités Marseille */
+
+
+/*Début Bloc Footer */
+
+#footer
+{      
+    display: flex;
+    
+    justify-content: space-around;
+
+    background-color: #b6b3b3;
+    width: 98.3%
+}
+
+.apropos, .noshebergements, .Assistance
+{
+    align-items: center;
+
+}
+
+#menufooter1
+{
+    list-style-type: none;
+    padding: 0%;
+}
+
+#menunoshebergements
+{
+    list-style-type: none;
+    padding: 0%;
+}
+
+#menuassistance
+{
+    list-style-type: none;
+    padding: 0%;
+}
+
+/* Fin Bloc Footer */ 
