@@ -45,10 +45,11 @@ div, nav, section, header, article, aside
  
 }
 
-#ul1
+.listemenunav
 {
     display: flex;
     list-style-type: none;  
+    width: 100%;
        
 }
 
@@ -56,18 +57,18 @@ div, nav, section, header, article, aside
 .elementH
 {
    
-   width: 40%;
+   width: 33.33%;
    
 }
 .elementA
 {
     
-    width: 30%;
+    width: 33.33%;
 }
 .elementS
 {
     
-    width: 40%;
+    width: 33.34%;
 }
 
 .txtdeco1
@@ -96,16 +97,16 @@ div, nav, section, header, article, aside
     width: 98.3%;
 }
 
-.h2
+.TitretrouvervotreH
 {
     
-    width: 50%
+    width: 100%;
 }
 
-.h3
+.SubtitreCentreville
 {
     
-    width: 50%;
+    width: 100%;
     color: grey;
     
 }
@@ -114,7 +115,7 @@ div, nav, section, header, article, aside
 {
     display: flex;
     margin-bottom: 1%;
-    width: 50%;
+    width: 100%;
     
 }
 
@@ -122,7 +123,7 @@ div, nav, section, header, article, aside
 {
     background-color: lightgray;
     color: black;
-    width: 4%;
+    width: 100%;
     border: 1px lightgrey;  
     border-right: 1px lightgrey;
     border-radius: 10px 0px 0px 10px;
@@ -136,23 +137,23 @@ div, nav, section, header, article, aside
 }
 
 
-.input
+.blocinput
 {
-    width: 21%;
-    height: 75%;
+    width: 100%;
+    height: 40px;
     border: 2px lightgrey ;
     
 }
 
-.inputbtn
+.champinput
 {
-    height: 10%;
+    height: 40px;
 }
 
-.button
+.blocbutton
 {
     border: 1px lightgray;
-    width: 12%; 
+    width: 100%; 
     
     border-left: 1px lightgray;
     border-radius: 0px 10px 10px 0px;
@@ -205,23 +206,23 @@ div, nav, section, header, article, aside
 
 }
 
-#ul2
+#listemenufiltres
 {
     list-style-type: none;
-    width: 92%;
+    width: 100%;
     padding:0%;
     border: 3px hotpink ;
     display: flex;
     justify-content: space-around;
 }
 
-.Liiconbill
+.itemiconbill
 {
     
     border-radius: 10px 10px 10px 10px;
     background-color: white;
     padding: 0%;
-    width: 10%;
+    width: 25%;
     border: 2px lightgray solid;
     
 }
@@ -262,7 +263,7 @@ div, nav, section, header, article, aside
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     padding: 0%;
-    width: 10%;
+    width: 25%;
     border: 2px lightgray solid;
 }
 
@@ -306,7 +307,7 @@ div, nav, section, header, article, aside
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     padding: 0%;
-    width: 10%;
+    width: 25%;
     
 
 }
@@ -363,7 +364,7 @@ div, nav, section, header, article, aside
     background-color:white;
     border: 2px lightgray solid;
     padding: 0%;
-    width: 13%;
+    width: 25%;
     border-radius: 10px 10px 10px 10px;
     margin-right: 46%;
         
@@ -438,7 +439,7 @@ div, nav, section, header, article, aside
 }
 
 
-.h2HM
+.TitreHM
 {
     margin-left: 4%;
 }
@@ -449,7 +450,7 @@ div, nav, section, header, article, aside
     flex-wrap: wrap;
 }
 
-.imgettxta
+.imgettxt
 {
     border: 3px black ;
     width: 29%;
@@ -513,7 +514,7 @@ div, nav, section, header, article, aside
 }
 
 
-.imgettxtb
+.imgettxt
 {
     width: 29%;
     border: 2px violet ;
@@ -572,7 +573,7 @@ div, nav, section, header, article, aside
     
 }
 
-.imgettxtc
+.imgettxt
 {
     width: 29%;
     border: 2px black ;
@@ -632,7 +633,7 @@ div, nav, section, header, article, aside
 }
 
 
-.imgettxtd
+.imgettxt
 {
     width: 29%;
     border: 3px deeppink ;
@@ -696,7 +697,7 @@ div, nav, section, header, article, aside
 }
 
 
-.imgettxte
+.imgettxt
 {
     width: 29%;
     height: 10%;
@@ -754,7 +755,7 @@ div, nav, section, header, article, aside
 }
 
 
-.imgettxtf
+.imgettxt
 {
     width: 29%;
     border: 2px darkorange ;
@@ -859,7 +860,7 @@ div, nav, section, header, article, aside
 }
 
 
-.h2popu
+.Titrepopu
 {
     border: 3px green   ;
     margin-left: 3%;
