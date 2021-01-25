@@ -94,7 +94,8 @@ div, nav, section, header, article, aside
 #perebtnrecherche
 {
     background-color: white;
-    width: 98.3%;
+    width: 100%;
+    border: 3px yellow solid;
 }
 
 .TitretrouvervotreH
@@ -116,6 +117,7 @@ div, nav, section, header, article, aside
     display: flex;
     margin-bottom: 1%;
     width: 100%;
+    border: 3px violet solid;
     
 }
 
@@ -123,10 +125,12 @@ div, nav, section, header, article, aside
 {
     background-color: lightgray;
     color: black;
-    width: 100%;
+    width: 33.33%;
     border: 1px lightgrey;  
     border-right: 1px lightgrey;
     border-radius: 10px 0px 0px 10px;
+
+    height: 22px;
     
     
 }
@@ -139,7 +143,7 @@ div, nav, section, header, article, aside
 
 .blocinput
 {
-    width: 100%;
+    width: 33.33%;
     height: 40px;
     border: 2px lightgrey ;
     
@@ -147,13 +151,13 @@ div, nav, section, header, article, aside
 
 .champinput
 {
-    height: 40px;
+    height: 16px;
 }
 
 .blocbutton
 {
     border: 1px lightgray;
-    width: 100%; 
+    width: 33.34%; 
     
     border-left: 1px lightgray;
     border-radius: 0px 10px 10px 0px;
@@ -416,7 +420,7 @@ div, nav, section, header, article, aside
 {
     background-color: white;
     border: 2px black ;
-    width: 98.1%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -432,10 +436,12 @@ div, nav, section, header, article, aside
     
     background-color: lightgrey;
     width: 68%;
-    height: 623px;
+    height: 579px;
     display: inline-block;
     justify-content: space-around;
     border-radius: 20px 20px 20px 20px;
+
+    padding-right: 2%;
 }
 
 
@@ -854,7 +860,7 @@ div, nav, section, header, article, aside
 .iconchart
 {
     float: right;
-    border: 3px black solid;
+    border: 3px black ;
     margin-right: 3%;
     margin-top: 6%;    
 }
@@ -867,6 +873,13 @@ div, nav, section, header, article, aside
     width: 81%;
     color: black;
     
+}
+
+.imgettxtpopu
+{
+    width: 91%;
+    padding-left: 4%;
+    margin-top: 5%;
 }
 
 .borderpicpopu1
@@ -922,7 +935,7 @@ div, nav, section, header, article, aside
 }
 .picpopu2
 {
-    border: 3px black solid;
+    border: 3px black ;
     padding-left: 3%;
     width: 91%;
     background-color: white;
@@ -1010,8 +1023,8 @@ div, nav, section, header, article, aside
 
 #ActivitesM
 {
-    background-color:lightskyblue;
-    width: 98.3%;
+    background-color:white;
+    width: 100%;
 }
 
 .groupeActivites
@@ -1023,13 +1036,19 @@ div, nav, section, header, article, aside
 
 .imgtxt1
 {
-    border: 3px black solid;
+    border: 3px black ;
+   border-radius: 20px 20px 20px 20px;
+
     display:flex;
     flex-direction: column;
     width: 46%;
+
+    margin-right: 2%;
+    margin-bottom: 3%;
+    
+    box-shadow: 0px 3px 18px lightgrey;
     
     
-    background-color: yellowgreen;
     position: relative;
     
     
@@ -1037,44 +1056,65 @@ div, nav, section, header, article, aside
 }
 .photo1
 {
-    border: 3px red solid;
-    background-color:turquoise;
-    width: 93%;
-    height: 97%;
+    border: 3px red ;
+    border-radius: 20px 20px 20px 20px;
+
+    padding-left: 1%;
+    padding-top: 1%;
+    
+
+    background-color;
+    width: 98%;
+    height: 442px;
     
 }
 
 .img1 
 {
-    width: 91%;
-    height: 90%;
+    width: 100%;
+    height: 398px;
+    object-fit: cover;
+
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
 }
 
-.txtphoto1
+.txtphoto
 {
-    border: 3px yellow solid;
+    border: 3px yellow ;
     width: 95%;
     display: flex;
+    padding-left: 3%;
+    
 }
 
-.imgtxt2
-{
-    border: 3px black solid;
-    width: 30%;
-    background-color: gold;
+
     
-    
-}
+
 .photo2
 {
-    border: 3px black dashed;
-    background-color: hotpink;   
+    border: 3px black ;
+    border-radius: 20px 20px 20px 20px;
+
+    background-color:;  
+    height: 230px; 
+
+
+    
 }
 
 .img2 
 {
-    border:deepskyblue dashed;
+    border:deepskyblue ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
     width: 97%;
+    height: 169px;
+    object-fit: cover;
+
+    padding-left: 1.5%;
+    padding-top: 2%;
 }
 
 .txtphoto2
@@ -1085,26 +1125,40 @@ div, nav, section, header, article, aside
 }
 .photo3
 {
-    border: 3px black dashed;
-    margin-top: 99%;
-    background-color:red;
+    
+    border-radius: 20px 20px 20px 20px;
+
+    height: 160px;
+    
+    margin-top:20%;
+
     
 }
 
 .img3 
 {
-    border: 3px red dashed;
+    border: 3px red ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    padding-left: 1.5%;
+    padding-top: 2%;
+
+    height: 107px;
+    object-fit: cover;
     width: 97%;
 }
 
-.imgtxt3
+.imgtxt1
 {
-    border: 3px black solid;
+    border: 3px black ;
     width: 43%;
     display:flex;
     flex-direction: column;
+
+    height: 448px;
  
-    background-color: yellowgreen;
+    background-color:;
     position: relative;
 
 }
@@ -1135,18 +1189,27 @@ div, nav, section, header, article, aside
     display:flex;
 }
 
-.imgtxt4
+.imgtxt2
 {
-    border: 3px yellow solid;
+    border: 3px yellow  ;
     width: 30%;
-    background-color: gold;
+    
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 2%;
+
+    height: 443px;
+
+    box-shadow: 0px 3px 18px lightgrey;
 }
 
 
 .photo5
 {
-    border: 3px black solid;
-    background-color: hotpink;
+    border: 3px black ;
+    border-radius: 20px 20px 20px 20px;
+
+    background-color:
+    height: 233px;
 }
 .txtphoto5
 {
@@ -1157,27 +1220,50 @@ div, nav, section, header, article, aside
 
 .img5
 {
-    border: 2px deepskyblue dashed;
+    border: 2px deepskyblue ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    padding-left: 2%;
+    padding-top: 2%;
+
     width: 97%;
+    height: 184px;
+    object-fit: cover;
 }
 
 .photo6
 {
-    border: 3px brown solid;
-    background-color:indigo;
+    border: 3px brown ;
+    border-radius: 20px 20px 20px 20px;
+
+    background-color: 
+    height: 187px;
+    object-fit: cover;
+    margin-top: 6%;
+    
 }
 
 .img6
 {
-    border: 3px black dashed;
+    border: 3px black ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    padding-left: 2%;
+    padding-top: 2%;
+
     width: 97%;
+    object-fit: cover;
+    height: 138px;
 }
 
 .txtphoto6
 {
     display:flex;
     text-align: center;
-    border: 3px yellow dashed;
+    border: 3px yellow ;
+    
 }
 
 
@@ -1194,12 +1280,14 @@ div, nav, section, header, article, aside
     justify-content: space-around;
 
     background-color: #b6b3b3;
-    width: 98.3%
+    width: 100%
 }
 
 .apropos, .noshebergements, .Assistance
 {
     align-items: center;
+
+
 
 }
 
