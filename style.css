@@ -1,8 +1,25 @@
  /* Début Header */
 
+ @font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    src: url("./Raleway/static/Raleway-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    font-style: bold;
+    src: url("./Raleway/static/Raleway-Bold.ttf") format("truetype");
+  }
+
+* {
+    font-family: "Raleway", sans-serif;
+}
+
 div, nav, section, header, article, aside 
 {
-    display:inline-block; vertical-align:top;
+    display:inline-block; 
+    vertical-align:top;
     
 
 }
@@ -13,15 +30,19 @@ div, nav, section, header, article, aside
     padding:0%;
 }
 
+.main_wrapper {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #header
 { 
     background-color: white;
     margin-bottom: 1%;
-    margin-top: 1%;
-    width: 98.3%;
-    
-    
-    
+    /*margin-top: 1%;*/
+    width: 100%;
 }
 
 #logo
@@ -36,7 +57,7 @@ div, nav, section, header, article, aside
 
 .logopic
 {
-    width: 40%;
+    width: 70%;
 }
 
 #menunav
@@ -44,9 +65,6 @@ div, nav, section, header, article, aside
  
  background-color:white;
  float: right;
- 
- 
-
  width: 50%;
  
 }
@@ -62,6 +80,17 @@ div, nav, section, header, article, aside
        
 }
 
+.listemenunav li {
+    padding: 25px 5px;
+}
+
+.listemenunav li:hover {
+    border-top: 2px solid blue;
+}
+
+.navactive {
+    border-top: 2px solid blue;
+}
 
 .elementH
 {
@@ -125,38 +154,41 @@ div, nav, section, header, article, aside
 {
     display: flex;
     margin-bottom: 1%;
-    width: 100%;
+    width: 40%;
     border: 3px violet ;
     
+}
+
+#Recherchebtn > div {
+    height: 48px;
 }
 
 .iconlocation  
 {
     background-color: lightgray;
     color: black;
-    width: 33.33%;
-    border: 1px lightgrey;  
+    width: 15%;
+    border: 1px solid lightgrey;  
     border-right: 1px lightgrey;
     border-radius: 10px 0px 0px 10px;
-
-    height: 46px;
-    
-    
+    text-align: center;
 }
 
 .fa-map-marker-alt
 {
-    text-align: center;
-    padding-top: 3%;
-    padding-left: 2%;
+    margin: auto;
+    width: 16px;
+    height: 18px;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
 }
 
 
 .blocinput
 {
-    width: 33.33%;
-    height: 40px;
-    border: 3px black solid;
+    width: 50%;
+    border: 1px solid lightgrey;
     
 }
 
@@ -165,14 +197,13 @@ div, nav, section, header, article, aside
     height: 100%;
     padding: 0%;
     border: 0px;
+    width: 100%;
 }
 
 .blocbutton
 {
-    border: 1px lightgray;
-    width: 33.34%; 
-    
-    border-left: 1px lightgray;
+    border: 1px solid blue;
+    width: 35%; 
     border-radius: 0px 10px 10px 0px;
 
 
@@ -216,6 +247,8 @@ div, nav, section, header, article, aside
     
 }
 
+
+
 #listemenufiltres
 {
     list-style-type: none;
@@ -231,21 +264,38 @@ div, nav, section, header, article, aside
     margin-top: 1%;
 }
 
+#listemenufiltres > li {
+    /*min-width: 15%;*/
+    white-space: nowrap;
+ }
+
+.iconbloc 
+{
+    border: 2px white solid;
+    border-radius: 20px 20px 20px 20px;
+    color:#0065FC;
+    background-color:  #DEEBFF;
+    width: 14%;
+    height: 36px;
+    align-self: center;
+
+    margin-top: -2px;
+    margin-left: -3px;
+
+}
+
 .itemiconbill  
 {
     
-    border-radius: 20px 20px 20px 20px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 23px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 26px;
     background-color: white;
     padding: 0%;
-    width: 26%;
     border: 2px lightgray solid;
-
-    margin-left: 1%;
-    margin-right: 1%;
-
     height: 35px;   
-
-    
+    width: 20%;
 }
 
 #listemenufiltres :hover
@@ -253,76 +303,53 @@ div, nav, section, header, article, aside
     background: blue;
 }
 
-#iconbill
-{
-    width: 100%;
-    
-    display: flex;
-    border: red ;
-    
-    color: black;
-    border-radius: 10px 10px 10px 10px;
-}
-
-
 
 .fa-money-bill-wave
 {
     align-self: center;
-
-    
-    border-radius: 20px 20px 20px 20px;
-
-    height: 28px;
-    width: 18%;
-
-    padding-top: 4%;
-    padding-left: 4%;
-
-    color:#0065FC;
-    background-color:  #DEEBFF;
+   padding-top: 7px;
+   padding-left: 6px;
+   height: 0px;
+   width: 0%;
+   background-color: transparent;
 }
 
 
-
+.txticon 
+{
+    padding-top: 6px;
+}
 
 .strongeco
 {
-    margin-left:8%;
-
-    color: black;
+  color: black;
 }
 
 .child
 {
+
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 23px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 26px;
     background-color: white;
-    border-radius: 20px 20px 20px 20px;
     padding: 0%;
-    width: 22%;
     border: 2px lightgray solid;
-
-    margin-right: 1%;
-
-    height: 35px;
+    height: 35px;   
+    width: 20%;
 }
 
 
 
 .fa-child
 {
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 10px;
+    height: 0px;
+    width: 0%;
+    background-color: transparent;  
     
-    
-    border-radius: 20px 20px 20px 20px;
-
-    height: 29px;
-    width: 13%;
-    
-    padding-left: 8% ;
-    padding-top: 5%;
-    padding-right: 5%;
-
-    color: #0065FC;
-    background-color: #DEEBFF;
 }
 
 .familialstrong
@@ -335,17 +362,15 @@ div, nav, section, header, article, aside
 
 .heart
 {
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 23px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 26px;
     background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    border: 2px lightgrey solid;
-
     padding: 0%;
-    width: 25%;
-
-    margin-right: 1%;
-
-    height: 35px;
-    
+    border: 2px lightgray solid;
+    height: 35px;   
+    width: 20%;
 
 }
 
@@ -354,17 +379,12 @@ div, nav, section, header, article, aside
 {
     
     
-    color: #0065FC;
-    background-color: #DEEBFF; 
-    border-radius: 20px 20px 20px 20px;
-    border: 1px;
-
-    height: 27px;
-    width: 9%;
-
-    padding-left: 5% ;
-    padding-top: 5%;
-    padding-right: 7%; 
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 10px;
+    height: 0px;
+    width: 0%;
+    background-color: transparent;  
 
 }
 
@@ -383,7 +403,6 @@ div, nav, section, header, article, aside
     
     width: 85%;
     padding-left: 6%;
-
     color: black; 
     
 }
@@ -392,13 +411,15 @@ div, nav, section, header, article, aside
 
 .dog 
 {
-    background-color:white;
-    border: 2px lightgray solid;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 23px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 26px;
+    background-color: white;
     padding: 0%;
-    width: 27%;
-    border-radius: 20px 20px 20px 20px;
-    margin-right: 46%;
-        
+    border: 2px lightgray solid;
+    height: 35px;   
+    width: 20%;
 }
 
 
@@ -406,17 +427,12 @@ div, nav, section, header, article, aside
 .fa-dog
 
 {    
-    color: blue;
-    background-color: skyblue;
-    border-radius: 20px 20px 20px 20px;
-    
-
-    height: 27px;
-    width: 8%;
-
-    padding-left: 4% ;
-    padding-top: 4%;
-    padding-right: 5%; 
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 10px;
+    height: 0px;
+    width: 0%;
+    background-color: transparent;  
 
 } 
 
@@ -438,9 +454,28 @@ div, nav, section, header, article, aside
     margin-bottom: 3%;
 }
 
-.fa-info-circle
+.colorinfo
+{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    height: 26px;
+    width: 29px;
+    border: 1px lightgrey solid;
+
+}
+
+.fa-info
 {
     color: blue;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+    
+.infoicontxt
+{
+    margin-top: 5px;
+    width: 97%;
+}
     
 }
 
@@ -484,51 +519,33 @@ div, nav, section, header, article, aside
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .imgettxt
 {
-    
+    margin-top: 5px; 
+    margin-bottom: 5px;
     width: 29%;
-    height: 10%;
     border-radius: 20px 20px 20px 20px;
-
-   
-
-
     background-color: white;
+    border: 5px solid white;
 }
 
+.imgettxt > div {
+    width: 100%;
 
-
-
-
-.photoa
-{
-    border: 2px red ;
-    width: 97%;
-    height: 71%;
 }
 
-#pica
-{
-    border: 3px  black ;
-
-    width: 99%;
-    height: 116px;
-
-    margin-left: 2%;
-    margin-top: 2%;
-
-  
-
+.imgettxt > div img{
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-
     object-fit: cover;
+    height: 115px;
 }
 
-.txtpica
+.txtpic
 {
     border: 2px yellow ;
     width: 94%;
@@ -537,11 +554,13 @@ div, nav, section, header, article, aside
 
     color: black;
 }
-.footerpica
+
+.imgettxt > div footer
 {
     border: 2px black ;
     width: 100%;
     margin-top: 4%;
+    color:blue;  
 }
 
 .blue
@@ -554,144 +573,10 @@ div, nav, section, header, article, aside
     color: grey;
 }
 
-
-.photob
-{
-    border: 2px yellow ;
-    width: 98%;
-    height: 98%;
-   
-}
-
-#picb
-{
-    width: 98%;
-    height: 112px;
-
-    border: 3px red ;  
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px; 
-
-    margin-left: 2%;
-    margin-top: 2%;
-
-  
-
-    object-fit: cover;
-    
-    
-}
-
-.txtpicb
-{
-    border: 2px blue ;
-    width: 89%;
-    padding-left: 5%;
-    height: 22%;
-
-    color:black;
-    
-}
-.footerpicb
-{
-    border: 2px red ;
-    width: 81%;
-    color: blue;
-    margin-top: -2%;
-    
-}
-
-
-
-.photoc
-{
-    border: 2px red ;
-    width: 97%;
-    height: 98%;
-}
-#picc
-{
-    width: 99%;
-    height: 114px;
-    border: 3px black ;
-    
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-    margin-left: 2%;
-    margin-top: 2%; 
-
-    object-fit: cover;
-}
-
-.txtpicc
-{
-    border: 2px black ;
-    width: 91%;
-    height: 26%;
-    padding-left: 5%;
-    color:black;
-    
-}
-
-
-.footerpicc
-{
-    width: 94%;
-    border: 2px yellow ;
-    margin-top: -2%;
-}
-
-.iconfooterpicc
-{
-    color: blue;
-}
-
 .grey{
     color: grey;
 }
 
-
-
-
-.photod
-{
-    border: 2px black ;
-    width: 80%;
-    height: 98%;
-}
-
-#picd
-{
-    width: 119%;
-    height: 116px;
-    object-fit: cover;
-
-    margin-left: 2%;
-    margin-top: 2%;
-
-    border: 3px yellow ; 
-
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-    
-}
-
-.txtpicd
-{
-    border: 3px darkblue ;
-    width: 93%;
-    padding-left: 5%;
-    height: 23%;
-
-    color:black; 
-}
-.footerpicd
-{
-    border: 2px blueviolet ;
-    width: 97%;
-}
 
 .blue
 {
@@ -703,97 +588,6 @@ div, nav, section, header, article, aside
     color: grey;
 }
 
-
-
-
-.photoe
-{
-    border: 2px red ;
-    width: 98%;
-    height: 76%;
-}
-
-#pice
-{
-    width:98%;
-    height: 114px;
-    object-fit: cover;
-
-    margin-left: 2%;
-    margin-top: 2%;
-
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-    border: 3px rebeccapurple ;
-}
-
-.txtpice
-{
-    border: 2px black ;
-    color:black;
-
-    width: 94%;
-    height: 37%;
-    margin-top: 1%;
-    padding-left: 5%;
-}
-
-.footerpice
-{
-    border: 2px yellow ;
-    width: 92%;
-}
-
-.iconfooterpice
-{
-    color: blue;
-}
-
-
-
-
-.photof
-{
-    width: 91%;
-    border: 2px blueviolet ;
-}
-
-#picf
-{
-    width: 106%;
-    height: 120px;
-    object-fit: cover;
-
-    border: 2px black ;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-    margin-left: 2%;
-    margin-top: 2%;
-
-   
-}
-
-.txtpicf
-{
-    width: 89%;
-    border: black ;
-    padding-left: 5%;
-
-    color:black;
-}
-
-.footerpicf
-{
-    width: 66%;
-    border: forestgreen ;
-}
-
-.iconfooterpicf
-{
-    color: blue;
-}
 
 .afficherplus
 {
@@ -857,20 +651,21 @@ div, nav, section, header, article, aside
 
 .imgettxtpopu
 {
-    width: 100%;
-    padding-left: 4%;
-    margin-top: 5%;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.borderpicpopu1
+.borderpicpopu
 {
-    border: 2px blue ;
-    padding-top: 1%;
-    padding-bottom: 1%;
-
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 52%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .footerpicpopu1
@@ -887,49 +682,26 @@ div, nav, section, header, article, aside
     color: blue;
 }
 
-.picpopu1
+.picpopu
 {
-    border: 3px red ;
-    padding-left: 3%;
-    width: 91%;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    margin-left:2%;
-    margin-bottom: 5%;
+    height: 150px;
+    padding: 5px;
 }
 
-.txtpicpopu1
-{
-    border: 3px black ;
-    width: 46%;
-    padding-top: 5%;
+.imgpicpopu {
+    width:30%;
+    height: 100%;
 }
-.borderpicpopu2
+
+.txtpicpopu
 {
-    border: 2px blue ;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    width: 50%;
+    width: 55%;
+    height: 100%;
 }
-.picpopu2
-{
-    border: 3px black ;
-    padding-left: 3%;
-    width: 91%;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    margin-left:2%;
-    margin-bottom: 5%;
-}
-.txtpicpopu2
-{
-    border: 3px black ;
-    width: 46%;
-    padding-top: 5%;
-    color: black;
-}
+
+
 .iconfooterpicpopu2
 {
     border: 3px purple ;
@@ -945,38 +717,6 @@ div, nav, section, header, article, aside
     color: grey;
 }
 
-.borderpicpopu3
-{
-    border: 2px blue ;
-
-    padding-top: 2%;
-    padding-bottom: 2%;
-
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-
-    width: 50%;
-    height: 139px;
-    object-fit: cover;
-
-}
-.picpopu3 
-{
-    border: 2px black ;
-    padding-left: 3%;
-    width: 91%;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    margin-left:2%;
-    margin-bottom: 5%;
-}
-.txtpicpopu3
-{
-    border: 2px red ;
-    width: 46%;
-    padding-top: 6%;
-    color: black;
-}
 
 
 .iconfooterpicpopu3
@@ -1183,8 +923,6 @@ div, nav, section, header, article, aside
     margin-right: 2%;
 
     height: 443px;
-
-    box-shadow: 0px 3px 18px lightgrey;
 }
 
 
