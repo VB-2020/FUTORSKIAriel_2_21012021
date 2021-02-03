@@ -2,26 +2,184 @@
 
  @font-face {
     font-family: "Raleway";
-    font-style: normal;
+    font-style: regular;
     src: url("./Raleway/static/Raleway-Regular.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: "Raleway";
-    font-style: bold;
+    font-style: Bold;
     src: url("./Raleway/static/Raleway-Bold.ttf") format("truetype");
+    font-style: Light;
+    src: url("./Raleway/static/Raleway-Light.ttf") format("truetype");
+    font-style: Medium;
+    src: url("./Raleway/static/Raleway-Medium.ttf");
   }
 
 * {
     font-family: "Raleway", sans-serif;
 }
 
+
+@media all and (max-width:1024px) /* Début Media Queries */
+{
+    .main
+    {
+        width: 410px;
+    }
+
+    .main_wrapper
+    {
+        width: 317px;
+    }
+
+    #logo, .logopic, .logoM, 
+    {
+        width: auto;
+    }
+
+    #logo
+    {
+       margin-bottom: 63px;
+        margin-left: 4px;
+    }
+
+    .logopic
+    {
+        height: 60px;
+    }
+
+    #header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menunav
+    {
+        width: 73%;
+    }
+
+    .listemenunav
+    {  width: auto;
+       display: flex;
+       flex-wrap: wrap-reverse;
+       justify-content: flex-start;
+       
+    }
+    .elementH.navactive
+    {
+        border-bottom: 2px solid  #0065FC;
+        border-top: none;
+        width: auto;
+        margin-left: -174px;
+
+        
+    }
+
+    .textdeco1, .textdeco2
+    {
+        width: auto;
+    }
+
+    .textdeco3
+    {
+        padding-left: 200px;
+        
+    }
+
+    .elementA
+    {
+        border-bottom: 2px solid #F2F2F2;
+        margin-left: 110px;
+    }
+
+    .elementS
+    {
+        margin-left: 97px;
+    }
+
+    .TitretrouvervotreH
+    {
+        width: 316px;
+    }
+
+    .SubtitreCentreville, 
+    {
+        padding-bottom: 14px;
+    }
+
+    #Recherchebtn
+    {
+        padding-bottom: 35px;
+        width: 450px;
+    }
+    
+    .iconlocation
+    {
+        padding-left: 13px;
+    }
+
+    
+
+    .blocbutton
+    {
+        margin-left: 126px;
+        border: 1px solid #0065FC;
+        width: 35%; 
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .boton1
+    {
+        display:none;
+    }
+
+    .boton2
+    {
+        
+         background-color: #0065FC;
+         width: 52px;
+         border-radius: 10px 10px 10px 10px;
+    }
+
+    
+
+    .fa-search
+    {
+        color: white;
+    }
+
+}
+
+
+/* Fin Media queries */
+
+h2
+{
+    font-family: "Raleway", sans-serif;
+    font-style: bold;
+}
+
+h3
+{
+    font-family: "Raleway", sans-serif;
+    font-style: bold;
+}
+
+h4
+{
+    font-family: 'Raleway', sans-serif;
+    font-style: Light;
+}
+
+li
+{
+    font-family:'Raleway', sans-serif;
+    font-style: light;
+}
+
+
 div, nav, section, header, article, aside 
 {
     display:inline-block; 
     vertical-align:top;
-    
-
 }
 
 .main 
@@ -50,9 +208,7 @@ div, nav, section, header, article, aside
     display:inline-block;
     background-color: white;
     width: 25%;
-    vertical-align: top
-    
-    
+    vertical-align: top    
 }
 
 .logopic
@@ -85,11 +241,11 @@ div, nav, section, header, article, aside
 }
 
 .listemenunav li:hover {
-    border-top: 2px solid blue;
+    border-top: 2px solid  #0065FC;
 }
 
 .navactive {
-    border-top: 2px solid blue;
+    border-top: 2px solid  #0065FC;
 }
 
 .elementH
@@ -112,7 +268,7 @@ div, nav, section, header, article, aside
 .txtdeco1
 {
     text-decoration: none;
-    color: blue;
+    color:  #0065FC;
 }
 .txtdeco2
 {
@@ -122,7 +278,7 @@ div, nav, section, header, article, aside
 .txtdeco3
 {
     text-decoration: none;
-    color: blue;
+    color:  #0065FC;
 }
 
 /* Fin Header */
@@ -138,15 +294,17 @@ div, nav, section, header, article, aside
 
 .TitretrouvervotreH
 {
-    
     width: 100%;
+    
+    
 }
 
 .SubtitreCentreville
 {
     
     width: 100%;
-    color: grey;
+    color: black;
+   
     
 }
 
@@ -202,16 +360,16 @@ div, nav, section, header, article, aside
 
 .blocbutton
 {
-    border: 1px solid blue;
+    border: 1px solid #0065FC;
     width: 35%; 
     border-radius: 0px 10px 10px 0px;
 
 
 }
 
-.boton
+.boton1
 {
-    background-color: blue;
+    background-color: #0065FC;
     height: 100%;
     
     width: 100%;
@@ -219,7 +377,17 @@ div, nav, section, header, article, aside
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color:white;
+
+    font-family: 'Raleway-Bold';    
+    
 }
+
+.boton2
+{
+    display: none ;
+}
+
+
 
 
 /*Fin btn Recherche */
@@ -237,6 +405,7 @@ div, nav, section, header, article, aside
 .strongfiltres
 {
     margin-top: 0.6%;
+    
 }
 
 
@@ -295,12 +464,13 @@ div, nav, section, header, article, aside
     padding: 0%;
     border: 2px lightgray solid;
     height: 35px;   
-    width: 20%;
+    width: 18%;
+    
 }
 
-#listemenufiltres :hover
+.itemiconbill:hover
 {
-    background: blue;
+    box-shadow: 0px 3px 18px lightgrey;
 }
 
 
@@ -323,6 +493,7 @@ div, nav, section, header, article, aside
 .strongeco
 {
   color: black;
+  font-style: bold;
 }
 
 .child
@@ -339,6 +510,10 @@ div, nav, section, header, article, aside
     width: 20%;
 }
 
+.child:hover
+{
+    box-shadow: 0px 3px 18px lightgrey;
+}
 
 
 .fa-child
@@ -374,6 +549,10 @@ div, nav, section, header, article, aside
 
 }
 
+.heart:hover
+{
+    box-shadow: 0px 3px 18px lightgrey;
+}
 
 .fa-heart
 {
@@ -422,7 +601,10 @@ div, nav, section, header, article, aside
     width: 20%;
 }
 
-
+.dog:hover
+{
+    box-shadow: 0px 3px 18px lightgrey;
+}
 
 .fa-dog
 
@@ -466,7 +648,7 @@ div, nav, section, header, article, aside
 
 .fa-info
 {
-    color: blue;
+    color: #0065FC;
     padding-top: 3px;
     padding-left: 10px;
 }
@@ -474,10 +656,10 @@ div, nav, section, header, article, aside
 .infoicontxt
 {
     margin-top: 5px;
-    width: 97%;
+    width: 92%;
 }
     
-}
+
 
 /*Fin Filtres*/
 
@@ -499,7 +681,7 @@ div, nav, section, header, article, aside
 #hebergementMarseille
 {
     
-    background-color: lightgrey;
+    background-color: #F2F2F2;
     width: 68%;
     height: 579px;
     display: inline-block;
@@ -530,6 +712,9 @@ div, nav, section, header, article, aside
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     border: 5px solid white;
+    box-shadow: 0px 3px 50px lightgrey;
+
+    
 }
 
 .imgettxt > div {
@@ -560,12 +745,12 @@ div, nav, section, header, article, aside
     border: 2px black ;
     width: 100%;
     margin-top: 4%;
-    color:blue;  
+    color: #0065FC;  
 }
 
 .blue
 {
-    color:blue;   
+    color: #0065FC;   
 }
 
 .grey
@@ -580,7 +765,7 @@ div, nav, section, header, article, aside
 
 .blue
 {
-    color: blue;
+    color: #0065FC;
 }
 
 .grey
@@ -623,8 +808,8 @@ div, nav, section, header, article, aside
 #lespluspopu
 {
     display: inline-block;  /* Utilizar inline-block para poner une block al lado del otro. Solucion para el menu nav y el footer */
-    background-color: lightgrey;
-    width: 28%;  /* Una vez que se definan bien los bloques "Divs" el % width que se utilice tendra sentido y se podra crear espacios entre los bloques */ 
+    background-color: #F2F2F2;
+    width: 28%;  
     border-radius: 20px 20px 20px 20px;
 
 }
@@ -657,6 +842,7 @@ div, nav, section, header, article, aside
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: 5px;
+    box-shadow: 0px 3px 50px lightgrey;
 }
 
 .borderpicpopu
@@ -679,7 +865,7 @@ div, nav, section, header, article, aside
 {
     display:flex;
     justify-content: flex-start;
-    color: blue;
+    color: #0065FC;
 }
 
 .picpopu
@@ -709,7 +895,7 @@ div, nav, section, header, article, aside
 
 .blue
 {
-    color:blue;
+    color: #0065FC;
 }
 
 .grey
@@ -726,7 +912,7 @@ div, nav, section, header, article, aside
 
 .blue
 {
-    color:blue;
+    color: #0065FC;
 }
 
 .grey
@@ -804,30 +990,39 @@ div, nav, section, header, article, aside
     border: 3px yellow ;
     width: 95%;
     display: flex;
-    padding-left: 3%;
-    
+    padding-left: 3%;    
 }
 
+
+.vieuxp
+{
+    text-decoration: none;
+    color: black;
+}
 
     
 
 .photo2
 {
-    border: 3px black ;
+    
     border-radius: 20px 20px 20px 20px;
 
     box-shadow: 0px 3px 18px lightgrey;
 
     
     height: 230px; 
-
-
-    
 }
+
+.fortdeP
+{
+    text-decoration: none;
+    color: black;
+}
+
 
 .img2 
 {
-    border:deepskyblue ;
+
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -839,12 +1034,7 @@ div, nav, section, header, article, aside
     padding-top: 2%;
 }
 
-.txtphoto2
-{
-    border: 3px green solid;
-    text-align: center;
-    display: flex;
-}
+
 .photo3
 {
     border: 3px black ;
@@ -861,7 +1051,7 @@ div, nav, section, header, article, aside
 
 .img3 
 {
-    border: 3px red ;
+    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -871,6 +1061,12 @@ div, nav, section, header, article, aside
     height: 107px;
     object-fit: cover;
     width: 97%;
+}
+
+.ilesduF
+{
+    text-decoration: none;
+    color:black;
 }
 
 .imgtxt1
@@ -887,13 +1083,13 @@ div, nav, section, header, article, aside
 
 }
 
-.photo4 
+.parcN
 {
-    border: 3px red solid;
-    background-color:turquoise;
-    width: 95%;
-    height: 97%;
+    text-decoration: none;
+    color: black;
 }
+
+
 
 .img4 
 {
@@ -937,16 +1133,11 @@ div, nav, section, header, article, aside
     height: 233px;
 }
 
-.txtphoto5
-{
-    border: 3px green solid;
-    text-align: center;
-    display: flex;
-}
+
 
 .img5
 {
-    border: 2px deepskyblue ;
+    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -958,9 +1149,15 @@ div, nav, section, header, article, aside
     object-fit: cover;
 }
 
+.NDG
+{
+    text-decoration: none;
+    color:black;
+}
+
 .photo6
 {
-    border: 3px brown ;
+    
     border-radius: 20px 20px 20px 20px;
 
     box-shadow: 0px 3px 18px lightgrey;
@@ -974,7 +1171,7 @@ div, nav, section, header, article, aside
 
 .img6
 {
-    border: 3px black ;
+    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -994,6 +1191,12 @@ div, nav, section, header, article, aside
     
 }
 
+.longchamp
+{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 /*Fin Bloc Activités Marseille */
@@ -1007,7 +1210,7 @@ div, nav, section, header, article, aside
     
     justify-content: space-around;
 
-    background-color: #b6b3b3;
+    background-color: #F2F2F2;
     width: 100%
 }
 
