@@ -17,139 +17,7 @@
 }
 
 
-@media all and (max-width:1024px) /* Début Media Queries */
-{
-    .main
-    {
-        width: 410px;
-    }
 
-    .main_wrapper
-    {
-        width: 317px;
-    }
-
-    #logo, .logopic, .logoM, 
-    {
-        width: auto;
-    }
-
-    #logo
-    {
-       margin-bottom: 63px;
-        margin-left: 4px;
-    }
-
-    .logopic
-    {
-        height: 60px;
-    }
-
-    #header
-    {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    #menunav
-    {
-        width: 73%;
-    }
-
-    .listemenunav
-    {  width: auto;
-       display: flex;
-       flex-wrap: wrap-reverse;
-       justify-content: flex-start;
-       
-    }
-    .elementH.navactive
-    {
-        border-bottom: 2px solid  #0065FC;
-        border-top: none;
-        width: auto;
-        margin-left: -174px;
-
-        
-    }
-
-    .textdeco1, .textdeco2
-    {
-        width: auto;
-    }
-
-    .textdeco3
-    {
-        padding-left: 200px;
-        
-    }
-
-    .elementA
-    {
-        border-bottom: 2px solid #F2F2F2;
-        margin-left: 110px;
-    }
-
-    .elementS
-    {
-        margin-left: 97px;
-    }
-
-    .TitretrouvervotreH
-    {
-        width: 316px;
-    }
-
-    .SubtitreCentreville, 
-    {
-        padding-bottom: 14px;
-    }
-
-    #Recherchebtn
-    {
-        padding-bottom: 35px;
-        width: 450px;
-    }
-    
-    .iconlocation
-    {
-        padding-left: 13px;
-    }
-
-    
-
-    .blocbutton
-    {
-        margin-left: 126px;
-        border: 1px solid #0065FC;
-        width: 35%; 
-        border-radius: 0px 10px 10px 0px;
-    }
-
-    .boton1
-    {
-        display:none;
-    }
-
-    .boton2
-    {
-         display: inline ;
-         background-color: #0065FC;
-         width: 52px;
-         border-radius: 10px 10px 10px 10px;
-    }
-
-    
-
-    .fa-search
-    {
-        color: white;
-    }
-
-}
-
-
-/* Fin Media queries */
 
 h2
 {
@@ -392,6 +260,9 @@ div, nav, section, header, article, aside
 
 
 
+
+
+
 /*Fin btn Recherche */
 
 /* Début Filtres */
@@ -616,7 +487,7 @@ div, nav, section, header, article, aside
     padding-left: 10px;
     height: 0px;
     width: 0%;
-    background-color: transparent;  
+    background-color: white;  
 
 } 
 
@@ -1246,3 +1117,439 @@ div, nav, section, header, article, aside
 }
 
 /* Fin Bloc Footer */ 
+
+@media all and (max-width:1024px) /* Début Media Queries */
+{
+    .main
+    {
+        width: 503px;
+    }
+
+    .main_wrapper
+    {
+        width: 380px;
+    }
+
+     .logoM, 
+    {
+        width: auto;
+    }
+
+    #logo
+    {
+       margin-bottom: 63px;
+        margin-left: 4px;
+        width: 600px;
+    }
+
+    .logopic
+    {
+        height: 54px;
+        width: 93px;
+    }
+
+    #header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menunav
+    {
+        width: 73%;
+    }
+
+    .listemenunav
+    {  width: auto;
+       display: flex;
+       flex-wrap: wrap-reverse;
+       justify-content: flex-start;
+       
+    }
+    .elementH.navactive
+    {
+        border-bottom: 2px solid  #0065FC;
+        border-top: none;
+        width: 149px;
+        margin-left: -194px;
+
+        
+    }
+
+    .textdeco1, .textdeco2
+    {
+        width: auto;
+    }
+
+    .textdeco3
+    {
+        padding-left: 200px;
+        
+    }
+
+    .elementA
+    {
+        border-bottom: 2px solid #F2F2F2;
+        width: 175px;
+        text-align: end;
+        
+    }
+
+    .textdeco2
+    {
+        padding-left: 64px;
+    }
+
+    .elementS
+    {
+        margin-left: 105px;
+    }
+
+    .TitretrouvervotreH
+    {
+        width: 359px;
+        font-size: 1.6em;
+    }
+
+    .SubtitreCentreville, 
+    {
+        padding-bottom: 14px;
+        width: 298px;
+        font-size: 0.95em;
+        margin-bottom: 31px;
+    }
+
+    #Recherchebtn
+    {
+        padding-bottom: 35px;
+        width: 450px;
+        margin-bottom: -6px;
+    }
+    
+    .iconlocation
+    {
+        padding-left: 13px;
+        width: 35px;
+        height: 49px;
+    }
+
+    .fa-map-marker-alt
+    {
+        padding-right: 13px;
+    }
+
+    .blocinput
+    {
+        width: 202px;
+        border: none;
+    }
+
+    .champinput
+    {
+        width: 256px;
+        border: 1px solid lightgrey;
+        height: 48px;
+    }
+
+    .blocbutton
+    {
+        margin-top: -1px;
+        border: 1px solid white;
+        width: 59px; 
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .boton1
+    {
+        display:none;
+    }
+
+    .boton2
+    {
+         display: inline ;
+         background-color: #0065FC;
+         width: 59px;
+         border-radius: 10px 10px 10px 10px;
+         height: 51px;
+         margin-left: 50px;
+    }
+
+    
+
+    .fa-search
+    {
+        color: white;
+        margin-top: 11px;
+        height: 27px;
+    }
+
+
+
+    .filtres
+    {
+        width: 360px;
+    }
+
+   #listemenufiltres
+   {
+       display:flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       
+   }
+
+   .sizefiltres
+   {
+       font-size: 1.2em;
+   }
+
+   .itemiconbill, .child, .heart, .strongfiltres
+   {
+       margin-bottom: 11px;
+   }
+   
+   .itemiconbill
+   {
+       width: 146px;
+   }
+   .iconbloc
+   {
+       width: 34px;
+   }
+   .child
+   {
+       width:115px;
+   }
+   .heart
+   {
+       width: 148px;
+   }
+   .dog
+   {
+       width: 187px;
+   }
+
+   #iconinfo
+   {
+       margin-top:25px;
+   }
+   .colorinfo
+   {
+       width: 25px;
+   }
+   .infoicontxt
+   {
+    width: 300px;
+    font-size: 0.9em;
+   }
+
+   #HMetLP
+   {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   #lespluspopu, #hebergementMarseille
+   {
+       width: 378px;
+       border-radius: 0px 0px 0px 0px;
+   }
+
+   #lespluspopu
+   {
+       margin-top: 20px;
+   }
+
+   .picpopu
+   {
+       width: 329px;
+       height: 132px;
+   }
+
+   .imgpicpopu
+   {
+       width: 108px;
+       height: 119px;
+       object-fit: cover;
+   }
+
+   .imgettxtpopu
+   {
+       border-radius: 20px 20px 20px 20px;
+       margin-top: 13px;
+   }
+
+   .borderpicpopu
+   {
+    width: 115px;
+    height: 132px;
+    object-fit: cover;
+
+   }
+   .txtpicpopu
+   {
+       width: 174px;
+       margin-left: 19px;
+       padding-top: 9px;
+       color: black;
+   }
+   .footerpicpopu1
+   {
+       margin-top: 37px;
+   }
+
+   #hebergementMarseille
+   {
+       background-color: white;
+       margin-top: 32px;
+   }
+
+   .pics, 
+   {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .imgettxt
+   {
+    width: 331px;
+    margin-left: 17px;
+   }
+
+   #ActivitesM
+   {
+    margin-top: 796px;
+    margin-left: 17px;
+   }
+
+
+   .groupeActivites
+   {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       margin-top: -62px;
+   }
+
+   .imgtxt1
+   {
+    width: 339px;
+    margin-left: 17px;
+    height: 159px;
+    margin-top: 86px;
+   }
+   .photo1
+   {
+    height: 104px;
+    object-fit: cover;
+   }
+   .img1
+   {
+    height: 113px;
+    object-position: center;
+    width: 340px;
+    margin-left: -4px;
+    margin-top: -4px; 
+   }
+
+   .txtphoto
+   {
+    margin-top: 16px;
+    font-size: 0.87em;  
+    margin-left: 10px;
+   }
+
+   .imgtxt2
+   {
+    width: 343px;
+    margin-left: 16px;
+    height: 261px;
+   }
+
+   .photo2
+   {
+    height: 163px;
+    margin-top: 10px;
+   }
+
+   .img2
+   {
+    width: 338px;
+    margin-left: -5px;
+    margin-top: -8px;
+    height: 109px;
+    object-fit: cover;
+   }
+
+   .photo3
+   {
+    margin-top: 12px;
+    height: 143px;
+
+   }
+
+   .img3
+   {
+    width: 340px;
+    margin-left: -6px;
+    height: 86px;
+    object-fit: cover;
+    margin-top: -6px;
+    padding-top: 7px;
+   }
+
+   .photo5
+   {
+    height: 200px;
+   }
+
+   .img5
+   {
+    width: 342px;
+    height: 148px;
+    object-position: top;
+    margin-left: -6px;
+    margin-top: -7px;
+   }
+
+   .photo6
+   {
+    height: 170px;
+   }
+
+   .img6
+   {
+    height: 116px;
+    
+    width: 344px;
+    margin-left: -6px;
+    margin-top: -8px;
+
+    }
+
+    #footer
+    {
+        margin-top: 166px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        
+        padding-left: 88px;
+        padding-top: 34px;
+    } 
+    
+    .noshebergements, .Assistance
+    {
+        margin-top: 25px;
+    }
+    #menuassistance
+    {
+        padding-bottom: 31px;
+    }
+
+}
+
+
+
+/* Fin Media queries */
