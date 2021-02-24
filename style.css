@@ -81,7 +81,7 @@ div, nav, section, header, article, aside
 
 .logopic
 {
-    width: 70%;
+    width: 29%;
 }
 
 #menunav
@@ -89,7 +89,7 @@ div, nav, section, header, article, aside
  
  background-color:white;
  float: right;
- width: 50%;
+ width: 40%;
  
 }
 
@@ -137,16 +137,19 @@ div, nav, section, header, article, aside
 {
     text-decoration: none;
     color:  #0065FC;
+    font-size: 12px;
 }
 .txtdeco2
 {
     text-decoration: none;
     color: grey;
+    font-size: 12px;
 }
 .txtdeco3
 {
     text-decoration: none;
     color:  #0065FC;
+    font-size: 12px;
 }
 
 /* Fin Header */
@@ -157,23 +160,20 @@ div, nav, section, header, article, aside
 {
     background-color: white;
     width: 100%;
-    border: 3px yellow ;
 }
 
 .TitretrouvervotreH
 {
     width: 100%;
-    
-    
+    font-size: 17px;
+    margin-bottom: -1%;
 }
 
 .SubtitreCentreville
 {
-    
     width: 100%;
-    color: black;
-   
-    
+    color: grey;
+    font-size: 12px;   
 }
 
 #Recherchebtn
@@ -193,7 +193,8 @@ div, nav, section, header, article, aside
 {
     background-color: lightgray;
     color: black;
-    width: 15%;
+    width: 6%;
+    height: 36px;
     border: 1px solid lightgrey;  
     border-right: 1px lightgrey;
     border-radius: 10px 0px 0px 10px;
@@ -210,17 +211,14 @@ div, nav, section, header, article, aside
     transform: perspective(1px) translateY(-50%);
 }
 
-
 .blocinput
 {
-    width: 50%;
-    border: 1px solid lightgrey;
-    
+    width: 35%;
+    border: 1px solid lightgrey;    
 }
 
 .champinput
 {
-    
     height: 100%;
     padding: 0%;
     border: 0px;
@@ -230,10 +228,8 @@ div, nav, section, header, article, aside
 .blocbutton
 {
     border: 1px solid #0065FC;
-    width: 35%; 
+    width: 21%; 
     border-radius: 0px 10px 10px 0px;
-
-
 }
 
 .boton1
@@ -248,8 +244,8 @@ div, nav, section, header, article, aside
     border-bottom-right-radius: 10px;
     color:white;
 
-    font-family: 'Raleway-Bold';    
-    
+    font-family: 'Raleway-Bold'; 
+    font-size: 16px;   
 }
 
 .boton2
@@ -257,39 +253,27 @@ div, nav, section, header, article, aside
     display: none;
 }
 
-
-
-
-
-
-
 /*Fin btn Recherche */
 
 /* Début Filtres */
 
-
-
 .textdeco4, .textdeco5, .textdeco6, .textdeco7 
 {
     text-decoration: none;
-    
 }
 
 .strongfiltres
 {
     margin-top: 0.6%;
-    
+    font-size: 14px;
+    margin-right: 34px;
 }
-
 
 .filtres
 {
     background-color: white;
     width: 100%;
-    
 }
-
-
 
 #listemenufiltres
 {
@@ -298,10 +282,6 @@ div, nav, section, header, article, aside
     padding:0%;
     border: 3px hotpink ;
     display: flex;
-    justify-content: space-around;
-
-    padding: 0%;
-    margin: 0%;
 
     margin-top: 1%;
 }
@@ -317,28 +297,29 @@ div, nav, section, header, article, aside
     border-radius: 20px 20px 20px 20px;
     color:#0065FC;
     background-color:  #DEEBFF;
-    width: 14%;
+    width: 36px;
     height: 36px;
     align-self: center;
 
     margin-top: -2px;
     margin-left: -3px;
+    padding-left: 3px;
 
 }
 
 .itemiconbill  
 {
-    
     border-top-left-radius: 27px;
     border-bottom-left-radius: 23px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 26px;
     background-color: white;
-    padding: 0%;
-    border: 2px lightgray solid;
-    height: 35px;   
-    width: 18%;
     
+    border: 2px lightgray solid;
+    height: 32px;   
+    width: 138px;
+
+    margin-right: 21px;
 }
 
 .itemiconbill:hover
@@ -346,10 +327,9 @@ div, nav, section, header, article, aside
     box-shadow: 0px 3px 18px lightgrey;
 }
 
-
 .fa-money-bill-wave
 {
-    align-self: center;
+   align-self: center;
    padding-top: 7px;
    padding-left: 6px;
    height: 0px;
@@ -357,10 +337,11 @@ div, nav, section, header, article, aside
    background-color: transparent;
 }
 
-
 .txticon 
 {
     padding-top: 6px;
+    padding-left: 3px;
+    font-size: 14px;
 }
 
 .strongeco
@@ -377,17 +358,17 @@ div, nav, section, header, article, aside
     border-top-right-radius: 24px;
     border-bottom-right-radius: 26px;
     background-color: white;
-    padding: 0%;
+    
     border: 2px lightgray solid;
-    height: 35px;   
-    width: 20%;
+    height: 32px;   
+    width: 108px;
+    margin-right: 28px;
 }
 
 .child:hover
 {
     box-shadow: 0px 3px 18px lightgrey;
 }
-
 
 .fa-child
 {
@@ -397,16 +378,12 @@ div, nav, section, header, article, aside
     height: 0px;
     width: 0%;
     background-color: transparent;  
-    
 }
 
 .familialstrong
 {
     color:black;
 }
-
-
-
 
 .heart
 {
@@ -415,10 +392,11 @@ div, nav, section, header, article, aside
     border-top-right-radius: 24px;
     border-bottom-right-radius: 26px;
     background-color: white;
-    padding: 0%;
+    
     border: 2px lightgray solid;
-    height: 35px;   
-    width: 20%;
+    height: 32px;   
+    width: 137px;
+    margin-right: 34px;
 
 }
 
@@ -429,37 +407,20 @@ div, nav, section, header, article, aside
 
 .fa-heart
 {
-    
-    
     text-align: center;
     padding-top: 7px;
     padding-left: 10px;
     height: 0px;
     width: 0%;
     background-color: transparent;  
-
 }
-
-.txticonromantique
-{
-    width: 85%;
-    padding-left: 80%;
-    padding-top: 10%;
-    color: black;
-}
-
-
 
 .strongromantique
 {
-    
     width: 85%;
     padding-left: 6%;
     color: black; 
-    
 }
-
-
 
 .dog 
 {
@@ -470,8 +431,8 @@ div, nav, section, header, article, aside
     background-color: white;
     padding: 0%;
     border: 2px lightgray solid;
-    height: 35px;   
-    width: 20%;
+    height: 32px;   
+    width: 177px;
 }
 
 .dog:hover
@@ -496,9 +457,6 @@ div, nav, section, header, article, aside
     color: black;
 }
 
-
-
-
 #iconinfo
 {
     width: 100%;
@@ -513,8 +471,8 @@ div, nav, section, header, article, aside
 {
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    height: 26px;
-    width: 29px;
+    height: 24px;
+    width: 2%;
     border: 1px lightgrey solid;
 
 }
@@ -530,6 +488,8 @@ div, nav, section, header, article, aside
 {
     margin-top: 5px;
     width: 92%;
+    color: grey;
+    font-size: 14px;
 }
     
 
@@ -553,21 +513,20 @@ div, nav, section, header, article, aside
  
 #hebergementMarseille
 {
-    
     background-color: #F2F2F2;
-    width: 68%;
+    width: 66%;
     height: 579px;
     display: inline-block;
     justify-content: space-around;
     border-radius: 20px 20px 20px 20px;
-
     padding-right: 2%;
 }
-
 
 .TitreHM
 {
     margin-left: 4%;
+    font-size: 17px;
+    padding-top: 14px;
 }
 
 .pics
@@ -575,6 +534,7 @@ div, nav, section, header, article, aside
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-left: 22px;
 }
 
 .imgettxt
@@ -682,12 +642,10 @@ div, nav, section, header, article, aside
 {
     display: inline-block;  /* Utilizar inline-block para poner une block al lado del otro. Solucion para el menu nav y el footer */
     background-color: #F2F2F2;
-    width: 28%;  
+    width: 30%;  
     border-radius: 20px 20px 20px 20px;
 
 }
-
-
 
 .iconchart
 {
@@ -697,13 +655,19 @@ div, nav, section, header, article, aside
     margin-top: 6%;    
 }
 
+.fa-chart-line{
+    padding-right: 12px;
+}
+
 
 .Titrepopu
 {
-    border: 3px green   ;
-    margin-left: 3%;
+    margin-left: 23px;
+    padding-top: 14px;
     width: 81%;
     color: black;
+    font-size: 17px;
+
     
 }
 
@@ -1130,7 +1094,7 @@ div, nav, section, header, article, aside
         width: 380px;
     }
 
-     .logoM, 
+     .logoM 
     {
         width: auto;
     }
@@ -1211,7 +1175,7 @@ div, nav, section, header, article, aside
         font-size: 1.6em;
     }
 
-    .SubtitreCentreville, 
+    .SubtitreCentreville 
     {
         padding-bottom: 14px;
         width: 298px;
@@ -1404,7 +1368,7 @@ div, nav, section, header, article, aside
        margin-top: 32px;
    }
 
-   .pics, 
+   .pics
    {
        display: flex;
        flex-direction: column;
