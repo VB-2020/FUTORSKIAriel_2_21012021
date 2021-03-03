@@ -58,7 +58,7 @@ div, nav, section, header, article, aside
 
 .main_wrapper {
     display: block;
-    width: 90%;
+    width: 66%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,7 +67,6 @@ div, nav, section, header, article, aside
 { 
     background-color: white;
     margin-bottom: 1%;
-    /*margin-top: 1%;*/
     width: 100%;
 }
 
@@ -90,6 +89,7 @@ div, nav, section, header, article, aside
  background-color:white;
  float: right;
  width: 40%;
+ margin-right: -32px;
  
 }
 
@@ -98,7 +98,7 @@ div, nav, section, header, article, aside
     display: flex;
     list-style-type: none;  
     width: 100%;
-
+    padding-left: 35px;
     padding:0%;
     margin: 0%;
        
@@ -120,20 +120,23 @@ div, nav, section, header, article, aside
 {
    width: 33.33%;
    text-align: center;
+   padding-left: 27px;
    
 }
 .elementA
 {
     width: 33.33%;
     text-align: center;
+
 }
 .elementS
 {
     width: 33.34%;
     text-align: center;
+    padding-right: 52px;
 }
 
-.txtdeco1
+.txtdeco1, .txtdeco3
 {
     text-decoration: none;
     color:  #0065FC;
@@ -145,12 +148,7 @@ div, nav, section, header, article, aside
     color: grey;
     font-size: 12px;
 }
-.txtdeco3
-{
-    text-decoration: none;
-    color:  #0065FC;
-    font-size: 12px;
-}
+
 
 /* Fin Header */
 
@@ -448,7 +446,8 @@ div, nav, section, header, article, aside
     padding-left: 10px;
     height: 0px;
     width: 0%;
-    background-color: white;  
+    background-color: #DEEBFF;  
+    color: #0065FC;
 
 } 
 
@@ -499,8 +498,9 @@ div, nav, section, header, article, aside
 #HMetLP
 {
     background-color: white;
-    border: 2px black ;
+    height: 537px;
     width: 100%;
+
     display: flex;
     justify-content: space-between;
 }
@@ -546,39 +546,57 @@ div, nav, section, header, article, aside
     background-color: white;
     border: 5px solid white;
     box-shadow: 0px 3px 50px lightgrey;
+    height: 174px;
 
     
 }
 
-.imgettxt > div {
+.imgettxt > article {
     width: 100%;
 
 }
 
-.imgettxt > div img{
+.pasdeco
+{
+    text-decoration: none;
+}
+
+.photo
+{
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 1px;
+    margin-top:1px;
+}
+
+#pica, #picb, #picc, #picd, #pice, #picf
+{
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
-    height: 115px;
+    height: 108px;
 }
-
 .txtpic
 {
-    border: 2px yellow ;
     width: 94%;
     height: 28%;
     padding-left: 3%;
+    
+    color: grey;
+    font-size: 14px;
+    margin-left: 2px;
 
-    color: black;
+}
+.negrita
+{
+    color:black;
 }
 
-.imgettxt > div footer
+.iconfooterpicb, .iconfooterpicc, .iconfooterpicf
 {
-    border: 2px black ;
-    width: 100%;
-    margin-top: 4%;
-    color: #0065FC;  
+    color: #0065FC;
 }
 
 .blue
@@ -591,20 +609,6 @@ div, nav, section, header, article, aside
     color: grey;
 }
 
-.grey{
-    color: grey;
-}
-
-
-.blue
-{
-    color: #0065FC;
-}
-
-.grey
-{
-    color: grey;
-}
 
 
 .afficherplus
@@ -620,20 +624,8 @@ div, nav, section, header, article, aside
     color: red;
 }
 
-.fa-dog
-{
-    background-color: #DEEBFF;
-    color: #0065FC;
-}
-
-
-
-
 
 /*Fin Bloc Hébergement Marseille */
-
-
-
 
 
 /*Début Bloc les plus populaires */
@@ -674,11 +666,11 @@ div, nav, section, header, article, aside
 .imgettxtpopu
 {
     display: block;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 19px;
+    margin-bottom: 19px;
     box-shadow: 0px 3px 50px lightgrey;
 }
 
@@ -686,76 +678,58 @@ div, nav, section, header, article, aside
 {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 100%;
-    height: 100%;
+    width: 81%;
+    height: 124px;
     object-fit: cover;
 }
 
-.footerpicpopu1
-{
-    border: 3px black ;
-    width: 67%;
-    margin-top: 7%;
-    
-}
-.iconfooterpicpopu1
+.iconfooterpicpopu
 {
     display:flex;
     justify-content: flex-start;
     color: #0065FC;
+    margin-top: 23px;
+}
+
+.iconfooterpicpopu1
+{
+    margin-top: 20px;
 }
 
 .picpopu
 {
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    height: 150px;
+    height: 123px;
     padding: 5px;
+    width: 100%;
 }
 
 .imgpicpopu {
-    width:30%;
-    height: 100%;
+    width:41%;
+    height: 109px;
+    margin-left: inherit;
+    margin-top: auto;
 }
 
 .txtpicpopu
 {
-    width: 55%;
-    height: 100%;
+    width: 99%;
+    height: 48px;
+    color:grey;
+    margin-top: -111px;
+    margin-left: 94px;
+    font-size: 14px;
 }
 
-
-.iconfooterpicpopu2
+.negritapopu
 {
-    border: 3px purple ;
-}
-
-.blue
-{
-    color: #0065FC;
-}
-
-.grey
-{
-    color: grey;
+    
+    color: black;
 }
 
 
 
-.iconfooterpicpopu3
-{
-    border: 2px black ;
-}
-
-.blue
-{
-    color: #0065FC;
-}
-
-.grey
-{
-    color:grey ;
-}
 
 /*Fin Bloc les plus populaires */
 
@@ -779,12 +753,13 @@ div, nav, section, header, article, aside
 
 .imgtxt1
 {
-    border: 3px black ;
-   border-radius: 20px 20px 20px 20px;
+    
+    border-radius: 20px 20px 20px 20px;
 
     display:flex;
     flex-direction: column;
     width: 25%;
+    height: 425px;
 
     margin-right: 2%;
     margin-bottom: 3%;
@@ -793,29 +768,25 @@ div, nav, section, header, article, aside
     
     
     position: relative;
-    
-    
-    
+        
 }
+
+
+
 .photo1
 {
-    border: 3px red ;
     border-radius: 20px 20px 20px 20px;
-
-    padding-left: 1%;
-    padding-top: 1%;
-    
-
-    
-    width: 98%;
+    width: 100%;
     height: 442px;
+    margin-top: auto;
+    margin-left: auto;
     
 }
 
 .img1 
 {
     width: 100%;
-    height: 398px;
+    height: 371px;
     object-fit: cover;
 
     border-top-left-radius: 20px ;
@@ -843,11 +814,11 @@ div, nav, section, header, article, aside
 {
     
     border-radius: 20px 20px 20px 20px;
-
     box-shadow: 0px 3px 18px lightgrey;
-
-    
-    height: 230px; 
+    width: 100%;
+    margin-left: 2px;
+    margin-top: auto;
+    height: 228px; 
 }
 
 .fortdeP
@@ -863,25 +834,25 @@ div, nav, section, header, article, aside
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    width: 97%;
-    height: 169px;
+    width: 100%;
+    height: 154px;
     object-fit: cover;
 
-    padding-left: 1.5%;
-    padding-top: 2%;
 }
 
 
 .photo3
 {
-    border: 3px black ;
+    width:100%;
     border-radius: 20px 20px 20px 20px;
 
     box-shadow: 0px 3px 18px lightgrey;
-
+    margin-left: 3px;
+    margin-bottom: 19px;
+    padding-bottom: 19px;
     height: 160px;
     
-    margin-top:20%;
+    
 
     
 }
@@ -892,12 +863,10 @@ div, nav, section, header, article, aside
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    padding-left: 1.5%;
-    padding-top: 2%;
 
-    height: 107px;
+    height: 126px;
     object-fit: cover;
-    width: 97%;
+    width: 100%;
 }
 
 .ilesduF
@@ -906,19 +875,7 @@ div, nav, section, header, article, aside
     color:black;
 }
 
-.imgtxt1
-{
-    border: 3px black ;
-    width: 25%;
-    display:flex;
-    flex-direction: column;
 
-    height: 448px;
- 
-    
-    position: relative;
-
-}
 
 .parcN
 {
@@ -949,11 +906,11 @@ div, nav, section, header, article, aside
 .imgtxt2
 {
     background-color: white;
-    border: 3px yellow  ;
-    width: 25%;
     
+    width: 25%;
+    margin-left: Opx;
     border-radius: 20px 20px 20px 20px;
-    margin-right: 2%;
+    margin-right: 41px;
 
     height: 443px;
 }
@@ -965,9 +922,9 @@ div, nav, section, header, article, aside
     border-radius: 20px 20px 20px 20px;
 
     box-shadow: 0px 3px 18px lightgrey;
-
-    
-    height: 233px;
+    margin-top: auto;
+    width: 100%;
+    height: 187px;
 }
 
 
@@ -978,12 +935,9 @@ div, nav, section, header, article, aside
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    padding-left: 2%;
-    padding-top: 2%;
-
-    width: 97%;
-    height: 184px;
-    object-fit: cover;
+    width: 100%;
+    height: 115px;
+    object-fit: fill;
 }
 
 .NDG
@@ -999,10 +953,11 @@ div, nav, section, header, article, aside
 
     box-shadow: 0px 3px 18px lightgrey;
 
-    
-    height: 187px;
+    width: 100%;
+    height: 179px;
     object-fit: cover;
-    margin-top: 6%;
+    margin-bottom: 27px;
+    padding-bottom: 42px;
     
 }
 
@@ -1012,12 +967,9 @@ div, nav, section, header, article, aside
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    padding-left: 2%;
-    padding-top: 2%;
-
-    width: 97%;
-    object-fit: cover;
-    height: 138px;
+    width: 100%;
+    object-fit: fill;
+    height: 168px;
 }
 
 .txtphoto6
@@ -1034,14 +986,17 @@ div, nav, section, header, article, aside
     color: black;
 }
 
-
+.imgtxtA, .photoA, .imga, .imgb, .imgc, .imgd, .imge, .imgf 
+{
+  display: none;
+}
 
 /*Fin Bloc Activités Marseille */
 
 
 /*Début Bloc Footer */
 
-#footer
+#piedsdepage
 {      
     display: flex;
     
@@ -1058,22 +1013,19 @@ div, nav, section, header, article, aside
 
 
 }
-
-#menufooter1
+.apropos
 {
-    list-style-type: none;
-    padding: 0%;
-    margin: 0%;
+    margin-left:183px;
 }
-
-#menunoshebergements
+.noshebergements
 {
-    list-style-type: none;
-    padding: 0%;
-    margin: 0%;
+    margin-left: -83px;
 }
-
-#menuassistance
+.Assistance
+{
+    margin-right: 419px;
+}
+#menufooter1, #menunoshebergements, #menuassistance
 {
     list-style-type: none;
     padding: 0%;
@@ -1086,30 +1038,32 @@ div, nav, section, header, article, aside
 {
     .main
     {
-        width: 503px;
+        
+        max-width: 1024px;
     }
 
     .main_wrapper
     {
-        width: 380px;
+        
+        max-width: 1024px;
     }
 
      .logoM 
     {
-        width: auto;
+        max-width: 1024px;
     }
 
     #logo
     {
        margin-bottom: 63px;
         margin-left: 4px;
-        width: 600px;
+        width: 92px;
     }
 
     .logopic
     {
-        height: 54px;
-        width: 93px;
+        height: 51px;
+        width: 88px;
     }
 
     #header
@@ -1118,83 +1072,81 @@ div, nav, section, header, article, aside
         justify-content: space-between;
     }
 
-    #menunav
-    {
-        width: 73%;
-    }
+   
 
     .listemenunav
-    {  width: auto;
+    {  min-width: auto;
+        max-width: auto;
        display: flex;
        flex-wrap: wrap-reverse;
        justify-content: flex-start;
        
     }
+
     .elementH.navactive
     {
         border-bottom: 2px solid  #0065FC;
         border-top: none;
-        width: 149px;
-        margin-left: -194px;
+       margin-left: -159px;
+       padding-bottom: 1px;
+       width: 95px;
+       
 
         
     }
 
-    .textdeco1, .textdeco2
+    .txtdeco1, .txtdeco2, .txtdeco3
     {
-        width: auto;
+        font-size: 0.85em;
     }
 
-    .textdeco3
+    .txtdeco3
     {
-        padding-left: 200px;
+        justify-content: center;
         
     }
 
     .elementA
     {
         border-bottom: 2px solid #F2F2F2;
-        width: 175px;
-        text-align: end;
         
-    }
-
-    .textdeco2
-    {
-        padding-left: 64px;
+        width: 81px;
+        text-align: center;
+        
     }
 
     .elementS
     {
-        margin-left: 105px;
+        margin-left: -29px;
+        width: 84px;
     }
 
     .TitretrouvervotreH
     {
-        width: 359px;
-        font-size: 1.6em;
+        width: auto;
+        font-size: 0.95em;
     }
 
     .SubtitreCentreville 
     {
         padding-bottom: 14px;
-        width: 298px;
-        font-size: 0.95em;
+        min-width: auto;
+        font-size: 0.75em;
         margin-bottom: 31px;
     }
 
     #Recherchebtn
     {
         padding-bottom: 35px;
-        width: 450px;
+        width: auto;
         margin-bottom: -6px;
     }
     
     .iconlocation
     {
         padding-left: 13px;
-        width: 35px;
-        height: 49px;
+        width: 29px;
+        
     }
 
     .fa-map-marker-alt
@@ -1204,13 +1156,14 @@ div, nav, section, header, article, aside
 
     .blocinput
     {
-        width: 202px;
+        min-width: auto;
+        max-width: auto;
         border: none;
     }
 
     .champinput
     {
-        width: 256px;
+        width: auto;
         border: 1px solid lightgrey;
         height: 48px;
     }
@@ -1219,7 +1172,7 @@ div, nav, section, header, article, aside
     {
         margin-top: -1px;
         border: 1px solid white;
-        width: 59px; 
+        min-width: auto;
         border-radius: 0px 10px 10px 0px;
     }
 
@@ -1232,7 +1185,8 @@ div, nav, section, header, article, aside
     {
          display: inline ;
          background-color: #0065FC;
-         width: 59px;
+         margin-left: 145px;
+         width: 40px;
          border-radius: 10px 10px 10px 10px;
          height: 51px;
          margin-left: 50px;
@@ -1251,7 +1205,7 @@ div, nav, section, header, article, aside
 
     .filtres
     {
-        width: 360px;
+        width: auto;
     }
 
    #listemenufiltres
@@ -1274,37 +1228,51 @@ div, nav, section, header, article, aside
    
    .itemiconbill
    {
-       width: 146px;
+       min-width: auto;
+       max-width: auto;
    }
    .iconbloc
    {
-       width: 34px;
+       min-width: auto;
+       max-width: auto;
    }
    .child
    {
-       width:115px;
+       min-width: auto;
+       max-width: auto;
    }
    .heart
    {
-       width: 148px;
+       min-width: auto;
+       max-width: auto;
    }
    .dog
    {
-       width: 187px;
+       min-width: auto;
+       max-width: auto;
    }
 
    #iconinfo
    {
        margin-top:25px;
+       width: auto;
+       display: flex;
    }
    .colorinfo
    {
-       width: 25px;
+       width: 26px;
+   }
+
+   .fa-info
+   {
+       margin-right: 9px;
    }
    .infoicontxt
    {
-    width: 300px;
-    font-size: 0.9em;
+    width: auto;
+    font-size: 0.80em;
+    margin-left: 5px;
+    margin-top: 1px;
    }
 
    #HMetLP
@@ -1313,27 +1281,38 @@ div, nav, section, header, article, aside
     flex-direction: column-reverse;
    }
 
+   .iconchart
+   {
+    margin-top: 26px;
+    margin-right: -2px;
+   }
    #lespluspopu, #hebergementMarseille
    {
-       width: 378px;
+       width: auto;
        border-radius: 0px 0px 0px 0px;
    }
-
+   .Titrepopu
+   {
+       font-size: 0.95em;
+       margin-left: 9px;
+   }
    #lespluspopu
    {
-       margin-top: 20px;
+       margin-bottom: -643px;
+       margin-top: 15px;
    }
 
    .picpopu
    {
-       width: 329px;
-       height: 132px;
+       
+       height: 100px;
    }
 
    .imgpicpopu
    {
-       width: 108px;
-       height: 119px;
+       min-width: auto;
+       max-width: auto;
+       height: 92px;
        object-fit: cover;
    }
 
@@ -1341,21 +1320,30 @@ div, nav, section, header, article, aside
    {
        border-radius: 20px 20px 20px 20px;
        margin-top: 13px;
+       margin-left: 7px;
+       width: 185px;
    }
 
    .borderpicpopu
    {
-    width: 115px;
-    height: 132px;
+    width: 75px;
+    height: 102px;
     object-fit: cover;
 
    }
    .txtpicpopu
    {
-       width: 174px;
-       margin-left: 19px;
+       font-size: 0.65em;
+       min-width: auto;
+       max-width: auto;
+       margin-left: 81px;
        padding-top: 9px;
        color: black;
+   }
+
+   .negritapopu
+   {
+     color: black;
    }
    .footerpicpopu1
    {
@@ -1365,147 +1353,138 @@ div, nav, section, header, article, aside
    #hebergementMarseille
    {
        background-color: white;
-       margin-top: 32px;
+       margin-bottom: -519px;
    }
 
+   .afficherplus
+   {
+       font-size: 00.85em;
+   }
+   .TitreHM
+   {
+       font-size: 0.9em;
+   }
    .pics
    {
        display: flex;
        flex-direction: column;
+       width: auto;
+       margin-left: -37px;
    }
 
    .imgettxt
    {
-    width: 331px;
+    width: auto;
+    height: 124px;
     margin-left: 17px;
+   }
+
+   #pica, #picb, #picc, #picd, #pice, #picf 
+   {
+       height: 68px;
+   }
+   .txtpic
+   {
+    font-size: 0.7em;
    }
 
    #ActivitesM
    {
-    margin-top: 796px;
-    margin-left: 17px;
+    margin-top: 928px;
+    margin-bottom: 83px;
    }
 
+   .AM 
+   {
+       font-size: 0.95em;
+   }
 
    .groupeActivites
    {
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       margin-top: -62px;
+       margin-top: 21px;
    }
 
-   .imgtxt1
+   
+
+
+   .imgtxtA
    {
-    width: 339px;
-    margin-left: 17px;
-    height: 159px;
-    margin-top: 86px;
+    display: inline;   
+    width: 210px;
+    
+    height: 140px;
+    margin-bottom: 15px;
+
+    box-shadow: 0px 3px 18px lightgrey;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
    }
-   .photo1
+
+   .photoA
    {
-    height: 104px;
+    display: inline;   
+    height: 114px;
+    
+    border-radius: 20px 20px 20px 20px;
     object-fit: cover;
-   }
-   .img1
-   {
-    height: 113px;
-    object-position: center;
-    width: 340px;
-    margin-left: -4px;
-    margin-top: -4px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 210px;
+    margin-right: 76px;
    }
 
-   .txtphoto
+   .imga, .imgb, .imgc, .imgd, .imge, .imgf
    {
-    margin-top: 16px;
+    height: 99px;
+    object-fit: cover;
+    display: inline;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: -40px;
+    width: 210px;
+   }
+
+   .imgtxt1, .photo1, .img1, .img2, .img3, .img5, .img6, .txtphoto, .imgtxt2
+   {
+       display: none;
+   }
+
+   .txtphotoA
+   {
+    
     font-size: 0.87em;  
-    margin-left: 10px;
-   }
-
-   .imgtxt2
-   {
-    width: 343px;
-    margin-left: 16px;
-    height: 261px;
-   }
-
-   .photo2
-   {
-    height: 163px;
-    margin-top: 10px;
-   }
-
-   .img2
-   {
-    width: 338px;
-    margin-left: -5px;
-    margin-top: -8px;
-    height: 109px;
-    object-fit: cover;
-   }
-
-   .photo3
-   {
-    margin-top: 12px;
-    height: 143px;
-
-   }
-
-   .img3
-   {
-    width: 340px;
-    margin-left: -6px;
-    height: 86px;
-    object-fit: cover;
-    margin-top: -6px;
-    padding-top: 7px;
-   }
-
-   .photo5
-   {
-    height: 200px;
-   }
-
-   .img5
-   {
-    width: 342px;
-    height: 148px;
-    object-position: top;
-    margin-left: -6px;
+    margin-left: 12px;
     margin-top: -7px;
    }
 
-   .photo6
-   {
-    height: 170px;
-   }
 
-   .img6
-   {
-    height: 116px;
-    
-    width: 344px;
-    margin-left: -6px;
-    margin-top: -8px;
 
-    }
-
-    #footer
+    #piedsdepage
     {
-        margin-top: 166px;
+        
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        padding-left: 57px;
         
+        justify-content: center;
         
-        padding-left: 88px;
-        padding-top: 34px;
+        font-size: 0.85em;
+        color: grey;
     } 
+
+    .pieds
+    {
+        color: black;
+    }
     
-    .noshebergements, .Assistance
+    .noshebergements, .Assistance, .apropos
     {
         margin-top: 25px;
+        margin-left: 3px;
     }
     #menuassistance
     {
