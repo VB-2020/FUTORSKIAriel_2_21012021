@@ -2,13 +2,13 @@
 
  @font-face {
     font-family: "Raleway";
-    font-style: regular;
+    
     src: url("./Raleway/static/Raleway-Regular.ttf") format("truetype");
-    font-style: Bold;
+    
     src: url("./Raleway/static/Raleway-Bold.ttf") format("truetype");
-    font-style: Light;
+    
     src: url("./Raleway/static/Raleway-Light.ttf") format("truetype");
-    font-style: Medium;
+    
     src: url("./Raleway/static/Raleway-Medium.ttf");
   }
 
@@ -16,31 +16,28 @@
     font-family: "Raleway", sans-serif;
 }
 
-
-
-
 h2
 {
     font-family: "Raleway", sans-serif;
-    font-style: bold;
+    
 }
 
 h3
 {
     font-family: "Raleway", sans-serif;
-    font-style: bold;
+    
 }
 
 h4
 {
     font-family: 'Raleway', sans-serif;
-    font-style: Light;
+    
 }
 
 li
 {
     font-family:'Raleway', sans-serif;
-    font-style: light;
+    
 }
 
 
@@ -178,20 +175,18 @@ div, nav, section, header, article, aside
 {
     display: flex;
     margin-bottom: 1%;
-    width: 40%;
-    border: 3px violet ;
-    
+    width: 100%;    
 }
 
 #Recherchebtn > div {
-    height: 48px;
+    height: 45px;
 }
 
 .iconlocation  
 {
     background-color: lightgray;
     color: black;
-    width: 6%;
+    width: 37px;
     height: 36px;
     border: 1px solid lightgrey;  
     border-right: 1px lightgrey;
@@ -211,7 +206,7 @@ div, nav, section, header, article, aside
 
 .blocinput
 {
-    width: 35%;
+    width: 159px;
     border: 1px solid lightgrey;    
 }
 
@@ -226,7 +221,7 @@ div, nav, section, header, article, aside
 .blocbutton
 {
     border: 1px solid #0065FC;
-    width: 21%; 
+    width: 119px;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -273,6 +268,11 @@ div, nav, section, header, article, aside
     width: 100%;
 }
 
+.warningheading
+{
+    display: none;
+}
+
 #listemenufiltres
 {
     list-style-type: none;
@@ -297,12 +297,12 @@ div, nav, section, header, article, aside
     background-color:  #DEEBFF;
     width: 36px;
     height: 36px;
-    align-self: center;
-
+    text-align: center;
+    line-height: 2;
     margin-top: -2px;
     margin-left: -3px;
-    padding-left: 3px;
-
+    
+    display: inline-block;
 }
 
 .itemiconbill  
@@ -330,8 +330,6 @@ div, nav, section, header, article, aside
    align-self: center;
    padding-top: 7px;
    padding-left: 6px;
-   height: 0px;
-   width: 0%;
    background-color: transparent;
 }
 
@@ -340,12 +338,14 @@ div, nav, section, header, article, aside
     padding-top: 6px;
     padding-left: 3px;
     font-size: 14px;
+
+    display: inline-block;
 }
 
 .strongeco
 {
   color: black;
-  font-style: bold;
+  
 }
 
 .child
@@ -372,9 +372,6 @@ div, nav, section, header, article, aside
 {
     text-align: center;
     padding-top: 7px;
-    padding-left: 10px;
-    height: 0px;
-    width: 0%;
     background-color: transparent;  
 }
 
@@ -407,9 +404,8 @@ div, nav, section, header, article, aside
 {
     text-align: center;
     padding-top: 7px;
-    padding-left: 10px;
+    padding-left: 3px;
     height: 0px;
-    width: 0%;
     background-color: transparent;  
 }
 
@@ -442,10 +438,6 @@ div, nav, section, header, article, aside
 
 {    
     text-align: center;
-    padding-top: 7px;
-    padding-left: 10px;
-    height: 0px;
-    width: 0%;
     background-color: #DEEBFF;  
     color: #0065FC;
 
@@ -688,12 +680,12 @@ div, nav, section, header, article, aside
     display:flex;
     justify-content: flex-start;
     color: #0065FC;
-    margin-top: 23px;
+    margin-top: 37px;
 }
 
 .iconfooterpicpopu1
 {
-    margin-top: 20px;
+    margin-top: 37px;
 }
 
 .picpopu
@@ -714,12 +706,12 @@ div, nav, section, header, article, aside
 
 .txtpicpopu
 {
-    width: 99%;
+    width: 100%;
     height: 48px;
     color:grey;
     margin-top: -111px;
     margin-left: 94px;
-    font-size: 14px;
+    font-size: 9px;
 }
 
 .negritapopu
@@ -908,7 +900,7 @@ div, nav, section, header, article, aside
     background-color: white;
     
     width: 25%;
-    margin-left: Opx;
+    margin-left: 0px;
     border-radius: 20px 20px 20px 20px;
     margin-right: 41px;
 
@@ -1031,21 +1023,36 @@ div, nav, section, header, article, aside
     padding: 0%;
     margin: 0%;
 }
+.MGT 
+{
+    margin-top: 5px;
+}
+
+#piedsdepageA
+{
+    display: none;
+}
 
 /* Fin Bloc Footer */ 
 
-@media all and (max-width:1024px) /* Début Media Queries */
+/* Début Media Queries */
+
+@media all and (max-width:1400px)
 {
-    .main
+    .main_wrapper
     {
-        
-        max-width: 1024px;
+        width: 100%;
     }
+}
+
+@media all and (max-width:1024px) 
+{
+    
 
     .main_wrapper
     {
         
-        max-width: 1024px;
+        width: 100%;
     }
 
      .logoM 
@@ -1056,7 +1063,7 @@ div, nav, section, header, article, aside
     #logo
     {
        margin-bottom: 63px;
-        margin-left: 4px;
+        margin-left: 19px;
         width: 92px;
     }
 
@@ -1076,7 +1083,7 @@ div, nav, section, header, article, aside
 
     .listemenunav
     {  min-width: auto;
-        max-width: auto;
+        
        display: flex;
        flex-wrap: wrap-reverse;
        justify-content: flex-start;
@@ -1087,9 +1094,9 @@ div, nav, section, header, article, aside
     {
         border-bottom: 2px solid  #0065FC;
         border-top: none;
-       margin-left: -159px;
+       margin-left: -221px;
        padding-bottom: 1px;
-       width: 95px;
+       width: 150px;
        
 
         
@@ -1110,29 +1117,31 @@ div, nav, section, header, article, aside
     {
         border-bottom: 2px solid #F2F2F2;
         
-        width: 81px;
+        width: 179px;
         text-align: center;
         
     }
 
     .elementS
     {
-        margin-left: -29px;
+        margin-left: 19px;
         width: 84px;
     }
 
     .TitretrouvervotreH
     {
         width: auto;
-        font-size: 0.95em;
+        font-size: 1.2em;
+        margin-left: 25px;
     }
 
     .SubtitreCentreville 
     {
         padding-bottom: 14px;
         min-width: auto;
-        font-size: 0.75em;
+        font-size: 0.85em;
         margin-bottom: 31px;
+        margin-left: 25px;
     }
 
     #Recherchebtn
@@ -1140,6 +1149,7 @@ div, nav, section, header, article, aside
         padding-bottom: 35px;
         width: auto;
         margin-bottom: -6px;
+        margin-left: 20px;
     }
     
     .iconlocation
@@ -1156,16 +1166,15 @@ div, nav, section, header, article, aside
 
     .blocinput
     {
-        min-width: auto;
-        max-width: auto;
+        width: 93px;
         border: none;
     }
 
     .champinput
     {
-        width: auto;
+        width: 218px;
         border: 1px solid lightgrey;
-        height: 48px;
+        height: 45px;
     }
 
     .blocbutton
@@ -1188,8 +1197,8 @@ div, nav, section, header, article, aside
          margin-left: 145px;
          width: 40px;
          border-radius: 10px 10px 10px 10px;
-         height: 51px;
-         margin-left: 50px;
+         height: 46px;
+         margin-left: 117px;
     }
 
     
@@ -1206,6 +1215,7 @@ div, nav, section, header, article, aside
     .filtres
     {
         width: auto;
+        margin-left: 23px;
     }
 
    #listemenufiltres
@@ -1229,27 +1239,27 @@ div, nav, section, header, article, aside
    .itemiconbill
    {
        min-width: auto;
-       max-width: auto;
+       
    }
    .iconbloc
    {
        min-width: auto;
-       max-width: auto;
+       
    }
    .child
    {
        min-width: auto;
-       max-width: auto;
+       
    }
    .heart
    {
        min-width: auto;
-       max-width: auto;
+       
    }
    .dog
    {
        min-width: auto;
-       max-width: auto;
+       
    }
 
    #iconinfo
@@ -1298,7 +1308,7 @@ div, nav, section, header, article, aside
    }
    #lespluspopu
    {
-       margin-bottom: -643px;
+       
        margin-top: 15px;
    }
 
@@ -1311,7 +1321,7 @@ div, nav, section, header, article, aside
    .imgpicpopu
    {
        min-width: auto;
-       max-width: auto;
+       
        height: 92px;
        object-fit: cover;
    }
@@ -1335,7 +1345,7 @@ div, nav, section, header, article, aside
    {
        font-size: 0.65em;
        min-width: auto;
-       max-width: auto;
+       
        margin-left: 81px;
        padding-top: 9px;
        color: black;
@@ -1358,7 +1368,8 @@ div, nav, section, header, article, aside
 
    .afficherplus
    {
-       font-size: 00.85em;
+       font-size: 0.95em;
+       margin-left: 46px;
    }
    .TitreHM
    {
@@ -1370,6 +1381,7 @@ div, nav, section, header, article, aside
        flex-direction: column;
        width: auto;
        margin-left: -37px;
+       padding-left: 22px;
    }
 
    .imgettxt
@@ -1405,6 +1417,7 @@ div, nav, section, header, article, aside
        flex-wrap: wrap;
        flex-direction: column;
        margin-top: 21px;
+       padding-left: 50px;
    }
 
    
@@ -1413,7 +1426,7 @@ div, nav, section, header, article, aside
    .imgtxtA
    {
     display: inline;   
-    width: 210px;
+    width: 260px;
     
     height: 140px;
     margin-bottom: 15px;
@@ -1444,7 +1457,7 @@ div, nav, section, header, article, aside
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-left: -40px;
-    width: 210px;
+    width: 260px;
    }
 
    .imgtxt1, .photo1, .img1, .img2, .img3, .img5, .img6, .txtphoto, .imgtxt2
@@ -1462,7 +1475,7 @@ div, nav, section, header, article, aside
 
 
 
-    #piedsdepage
+    #piedsdepageA
     {
         
         display: flex;
@@ -1471,26 +1484,30 @@ div, nav, section, header, article, aside
         padding-left: 57px;
         
         justify-content: center;
-        
+        width: 100%;
         font-size: 0.85em;
         color: grey;
     } 
 
-    .pieds
+    .piedsA
     {
         color: black;
     }
     
-    .noshebergements, .Assistance, .apropos
+    .noshebergementsA, .AssistanceA, .aproposA
     {
         margin-top: 25px;
         margin-left: 3px;
     }
-    #menuassistance
+    #menuassistanceA
     {
         padding-bottom: 31px;
     }
 
+    #piedsdepage, .pieds, .noshebergements, .Assistance, .apropos, #menuassistance
+    {
+        display: none;
+    }
 }
 
 
