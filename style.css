@@ -1028,10 +1028,7 @@ div, nav, section, header, article, aside
     margin-top: 5px;
 }
 
-#piedsdepageA
-{
-    display: none;
-}
+
 
 /* Fin Bloc Footer */ 
 
@@ -1475,7 +1472,7 @@ div, nav, section, header, article, aside
 
 
 
-    #piedsdepageA
+    #piedsdepage
     {
         
         display: flex;
@@ -1489,25 +1486,22 @@ div, nav, section, header, article, aside
         color: grey;
     } 
 
-    .piedsA
+    .pieds
     {
         color: black;
     }
     
-    .noshebergementsA, .AssistanceA, .aproposA
+    .noshebergements, .Assistance, .apropos
     {
         margin-top: 25px;
         margin-left: 3px;
     }
-    #menuassistanceA
+    #menuassistance
     {
         padding-bottom: 31px;
     }
 
-    #piedsdepage, .pieds, .noshebergements, .Assistance, .apropos, #menuassistance
-    {
-        display: none;
-    }
+    
 }
 
 
