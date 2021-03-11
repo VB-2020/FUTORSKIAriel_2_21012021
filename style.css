@@ -63,7 +63,7 @@ div, nav, section, header, article, aside
 #header
 { 
     background-color: white;
-    margin-bottom: 1%;
+    
     width: 100%;
 }
 
@@ -1134,11 +1134,11 @@ div, nav, section, header, article, aside
 
     .SubtitreCentreville 
     {
-        padding-bottom: 14px;
+        
         min-width: auto;
         font-size: 0.85em;
-        margin-bottom: 31px;
-        margin-left: 25px;
+        
+        
     }
 
     #Recherchebtn
@@ -1413,8 +1413,8 @@ div, nav, section, header, article, aside
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       margin-top: 21px;
-       padding-left: 50px;
+       
+       
    }
 
    
@@ -1478,7 +1478,7 @@ div, nav, section, header, article, aside
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        padding-left: 57px;
+        
         
         justify-content: center;
         width: 100%;
