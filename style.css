@@ -86,7 +86,7 @@ div, nav, section, header, article, aside
  background-color:white;
  float: right;
  width: 40%;
- margin-right: -32px;
+ 
  
 }
 
@@ -1013,10 +1013,7 @@ div, nav, section, header, article, aside
 {
     margin-left: -83px;
 }
-.Assistance
-{
-    margin-right: 419px;
-}
+
 #menufooter1, #menunoshebergements, #menuassistance
 {
     list-style-type: none;
@@ -1091,9 +1088,9 @@ div, nav, section, header, article, aside
     {
         border-bottom: 2px solid  #0065FC;
         border-top: none;
-       margin-left: -221px;
+       margin-left: -192px;
        padding-bottom: 1px;
-       width: 150px;
+       width: 151px;
        
 
         
@@ -1114,7 +1111,7 @@ div, nav, section, header, article, aside
     {
         border-bottom: 2px solid #F2F2F2;
         
-        width: 179px;
+        width: 149px;
         text-align: center;
         
     }
@@ -1129,13 +1126,13 @@ div, nav, section, header, article, aside
     {
         width: auto;
         font-size: 1.2em;
-        margin-left: 25px;
+        margin-left: 31px;
     }
 
     .SubtitreCentreville 
     {
         
-        min-width: auto;
+        text-align: center;
         font-size: 0.85em;
         
         
@@ -1301,7 +1298,7 @@ div, nav, section, header, article, aside
    .Titrepopu
    {
        font-size: 0.95em;
-       margin-left: 9px;
+       
    }
    #lespluspopu
    {
@@ -1327,8 +1324,8 @@ div, nav, section, header, article, aside
    {
        border-radius: 20px 20px 20px 20px;
        margin-top: 13px;
-       margin-left: 7px;
-       width: 185px;
+       margin-left: 23px;
+       width: 247px;
    }
 
    .borderpicpopu
@@ -1366,11 +1363,12 @@ div, nav, section, header, article, aside
    .afficherplus
    {
        font-size: 0.95em;
-       margin-left: 46px;
+       margin-left: 19px;
    }
    .TitreHM
    {
        font-size: 0.9em;
+       margin-left: 22px;
    }
    .pics
    {
@@ -1383,9 +1381,9 @@ div, nav, section, header, article, aside
 
    .imgettxt
    {
-    width: auto;
+    width: 250px;
     height: 124px;
-    margin-left: 17px;
+    margin-left: 35px;
    }
 
    #pica, #picb, #picc, #picd, #pice, #picf 
@@ -1406,6 +1404,7 @@ div, nav, section, header, article, aside
    .AM 
    {
        font-size: 0.95em;
+       margin-left: 18px;
    }
 
    .groupeActivites
@@ -1413,6 +1412,7 @@ div, nav, section, header, article, aside
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
+       align-content: center;
        
        
    }
@@ -1494,7 +1494,7 @@ div, nav, section, header, article, aside
     .noshebergements, .Assistance, .apropos
     {
         margin-top: 25px;
-        margin-left: 3px;
+        margin-left: 29px;
     }
     #menuassistance
     {
