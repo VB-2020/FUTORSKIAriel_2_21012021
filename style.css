@@ -1076,7 +1076,7 @@ div, nav, section, header, article, aside
    
 
     .listemenunav
-    {  min-width: auto;
+    {  
         
        display: flex;
        flex-wrap: wrap-reverse;
@@ -1126,7 +1126,8 @@ div, nav, section, header, article, aside
     {
         width: auto;
         font-size: 1.2em;
-        margin-left: 31px;
+        
+        text-align: center;
     }
 
     .SubtitreCentreville 
@@ -1140,15 +1141,14 @@ div, nav, section, header, article, aside
 
     #Recherchebtn
     {
-        padding-bottom: 35px;
+        
         width: auto;
-        margin-bottom: -6px;
-        margin-left: 20px;
+       justify-content: center;
     }
     
     .iconlocation
     {
-        padding-left: 13px;
+        text-align: right;
         width: 29px;
         
     }
@@ -1208,8 +1208,8 @@ div, nav, section, header, article, aside
 
     .filtres
     {
-        width: auto;
-        margin-left: 23px;
+        width: inherit;
+        
     }
 
    #listemenufiltres
@@ -1258,7 +1258,7 @@ div, nav, section, header, article, aside
 
    #iconinfo
    {
-       margin-top:25px;
+       justify-content: center;
        width: auto;
        display: flex;
    }
@@ -1275,8 +1275,7 @@ div, nav, section, header, article, aside
    {
     width: auto;
     font-size: 0.80em;
-    margin-left: 5px;
-    margin-top: 1px;
+   
    }
 
    #HMetLP
@@ -1298,6 +1297,7 @@ div, nav, section, header, article, aside
    .Titrepopu
    {
        font-size: 0.95em;
+       text-align: center;
        
    }
    #lespluspopu
@@ -1324,7 +1324,7 @@ div, nav, section, header, article, aside
    {
        border-radius: 20px 20px 20px 20px;
        margin-top: 13px;
-       margin-left: 23px;
+       
        width: 247px;
    }
 
@@ -1363,27 +1363,28 @@ div, nav, section, header, article, aside
    .afficherplus
    {
        font-size: 0.95em;
-       margin-left: 19px;
+       text-align: center;
    }
    .TitreHM
    {
        font-size: 0.9em;
-       margin-left: 22px;
+       text-align: center;
+       
    }
    .pics
    {
        display: flex;
        flex-direction: column;
        width: auto;
-       margin-left: -37px;
-       padding-left: 22px;
+       align-content: center;
+       
    }
 
    .imgettxt
    {
     width: 250px;
     height: 124px;
-    margin-left: 35px;
+    
    }
 
    #pica, #picb, #picc, #picd, #pice, #picf 
@@ -1404,7 +1405,7 @@ div, nav, section, header, article, aside
    .AM 
    {
        font-size: 0.95em;
-       margin-left: 18px;
+       text-align: center;
    }
 
    .groupeActivites
@@ -1480,7 +1481,7 @@ div, nav, section, header, article, aside
         flex-direction: column;
         
         
-        justify-content: center;
+        align-content: center;
         width: 100%;
         font-size: 0.85em;
         color: grey;
