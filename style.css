@@ -1531,6 +1531,98 @@ div, nav, section, header, article, aside
 }
 
 
+@media all and (min-width:600px) and (max-width:850px)
+{
+    .main_wrapper
+    {
+        width: 100%;
+    }
+    
+    #perebtnrecherche
+    {
+        padding-left: 141px;
+        margin-top: 28px;
+    }
 
+    .filtres
+    {
+        padding-left: 149px;
+    }
+   
+    .iconchart
+    {
+        margin-right: 21px;
+    }
+    .txtpicpopu
+    {
+        margin-left: 271px;
+        font-size: 0.85em;
+    }
+    .iconfooterpicpopu
+    {
+        margin-top: 20px;
+    }
+    .borderpicpopu
+    {
+        width: 241px;
+    }
+    .imgettxtpopu
+    {
+        width: 483px;
+    }
+    
+    .afficherplus
+    {
+        padding-left: 47px;
+    }
+    .txtpic
+    {
+        font-size: 0.85em;
+        text-align: center;
+    }
+    .imgettxt
+    {
+        width: 483px;
+        height: 255px;
+    }
+    #pica, #picb, #picc, #picd, #pice, #picf 
+    {
+        height: 195px;
+    }
+
+    .TitreHM
+    {
+        padding-left: 30px;
+    }
+
+    #ActivitesM
+    {
+        margin-top: 1712px;
+    }
+    .AM
+    {
+        margin-top: 50px;
+        padding-left: 72px;
+    }
+    .imga, .imgb, .imgc, .imgd, .imge, .imgf
+    {
+        width: 483px;
+        height: 170px;
+    }
+    .imgtxtA
+    {
+        height:209px;
+        width: 483px;
+    }
+    .txtphotoA
+    {
+        text-align: center;
+    }
+    #piedsdepage
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 /* Fin Media queries */
