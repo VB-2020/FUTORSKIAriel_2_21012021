@@ -61,7 +61,7 @@ div, nav, section, header, article, aside
     margin-bottom: 40px;
 }
 
-#header
+#Encabezado
 { 
     background-color: white;
     
@@ -1077,7 +1077,7 @@ div, nav, section, header, article, aside
         width: 88px;
     }
 
-    #header
+    #Encabezado
     {
         display: flex;
         justify-content: space-between;
@@ -1238,6 +1238,12 @@ div, nav, section, header, article, aside
        
        margin-top: 28px;
        
+   }
+   .mobile
+   {
+       display: flex;
+       
+       flex-direction: row;
    }
 
    .sizefiltres
