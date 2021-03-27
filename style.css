@@ -1144,7 +1144,7 @@ div, nav, section, header, article, aside
     .TitretrouvervotreH
     {
         
-        font-size: 0.95em;
+        font-size: 0.85em;
         
         
     }
@@ -1208,7 +1208,7 @@ div, nav, section, header, article, aside
          width: 40px;
          border-radius: 9px 9px 9px 9px;
          height: 44px;
-         margin-left: 100px;
+         margin-left: 121px;
     }
 
     
@@ -1234,16 +1234,14 @@ div, nav, section, header, article, aside
    {
        display:flex;
        flex-wrap: wrap;
-       flex-direction: column;
+       width: 90%;
        
        margin-top: 28px;
        
    }
-   .mobile
+   .titrefiltres
    {
-       display: flex;
-       
-       flex-direction: row;
+       font-size: 1em;
    }
 
    .sizefiltres
@@ -1288,7 +1286,7 @@ div, nav, section, header, article, aside
        width: auto;
        display: flex;
        padding-top: 12px;
-       padding-left: 3px;
+       
    }
    .colorinfo
    {
@@ -1302,7 +1300,7 @@ div, nav, section, header, article, aside
    .infoicontxt
    {
     width: auto;
-    font-size: 0.80em;
+    font-size: 0.75em;
    
    }
 
@@ -1553,6 +1551,10 @@ div, nav, section, header, article, aside
     .filtres
     {
         padding-left: 149px;
+    }
+    #iconinfo
+    {
+        margin-right: 115px;
     }
    
     .iconchart
