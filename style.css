@@ -627,7 +627,7 @@ div, nav, section, header, article, aside
 {
     display: inline-block;  /* Utilizar inline-block para poner une block al lado del otro. Solucion para el menu nav y el footer */
     background-color: #F2F2F2;
-    width: 30%;  
+    width: 31%;  
     border-radius: 20px 20px 20px 20px;
 
 }
@@ -671,7 +671,7 @@ div, nav, section, header, article, aside
 {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 81%;
+    width: 70%;
     height: 124px;
     object-fit: cover;
 }
@@ -695,7 +695,7 @@ div, nav, section, header, article, aside
     border-radius: 20px 20px 20px 20px;
     height: 123px;
     padding: 5px;
-    width: 100%;
+    width: 99%;
 }
 
 .imgpicpopu {
@@ -711,8 +711,8 @@ div, nav, section, header, article, aside
     height: 48px;
     color:grey;
     margin-top: -111px;
-    margin-left: 108px;
-    font-size: 13px;
+    margin-left: 124px;
+    font-size: 12px;
 }
 
 .negritapopu
